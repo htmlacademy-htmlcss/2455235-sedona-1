@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="ru">
-
   <head>
     <meta charset="utf-8">
     <title>Седона</title>
   </head>
-
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <a class="logo">
-          <img src="" width="140" height="70" alt="Логотип города Седона">
+        <a class="logo" href="index.html">
+          <img src="#" width="140" height="70" alt="Логотип города Седона">
         </a>
         <ul class="navigation__list">
-          <!-- убрала href - так как это и есть главная страница -->
           <li class="navigation__item">
-            <!-- убрала href - так как это и есть главная страница -->
-            <a class="navigation__link">Главная</a>
+            <a class="navigation__link navigation__link-current">Главная</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link" href="about.html">О Седоне</a>
+            <a class="navigation__link" href="#">О Седоне</a>
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="catalog.html">Гостиницы</a>
@@ -35,27 +31,23 @@
           </li>
           <li class="navigation__item">
             <a class="navigation__link" href="#">
-              <!-- не совсем понятно, что такое сердце в данном случае. я предположила, что корзина -->
               <span class="visually-hidden">
                 Корзина
               </span>
             </a>
           </li>
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Хочу сюда!
-              <!-- я бы добавила для скринридеров слово "поиск гостиницы", так как не совсем понятно, что это "хочу сюда" -->
-              <span class="visually-hidden">
-                Поиск гостиницы
-              </span>
-            </a>
-          </li>
         </ul>
+        <a class="navigation__link button button_to-catalog" href="./catalog.html">Хочу сюда!
+          <span class="visually-hidden">
+            Каталог гостиниц
+          </span>
+        </a>
       </nav>
     </header>
     <main class="main-index">
       <section class="hero">
         <h1 class="hero__title">Сайт о городе Седона</h1>
-        <img src="" width="458" height="352" alt="Wellcome to the gorgeous Sedona because of the Grand Canyon sucks">
+        <img src="#" width="458" height="352" alt="Wellcome to the gorgeous Sedona because of the Grand Canyon sucks">
       </section>
       <section class="advantages">
         <h2 class="advantages__title">Седона — небольшой городок в Аризоне,
@@ -65,7 +57,7 @@
           <li class="advantages__item">
             <h3 class="advantages__title">Настоящий городок</h3>
             <p class="advantages__description">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-            <img src="" width="800" height="385" alt="Вид на город Седона">
+            <img class="advantages__cover" src="#" width="800" height="385" alt="Вид на город Седона">
           </li>
           <li class="advantages__item">
             <h3 class="advantages__title">Небольшая
@@ -86,7 +78,7 @@
             <h3 class="advantages__title">Там есть
               мост дьявола</h3>
             <p class="advantages__description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
-            <img src="" width="800" height="385" alt="Вид на мост Дьявола">
+            <img class="advantages__cover" src="#" width="800" height="385" alt="Вид на мост Дьявола">
           </li>
         </ul>
       </section>
@@ -111,7 +103,6 @@
           </li>
         </ul>
       </section>
-      <!-- не смогла придумать другое название для секции ниже -->
       <section class="search">
         <h2 class="search__title">Заинтересовались?</h2>
         <p class="search__description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц
@@ -124,42 +115,37 @@
         <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
           <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email"
             required>
-          <button class="button subscribe-button" type="submit">Подписаться</button>
+          <button class="button button_subscribe" type="submit">Подписаться</button>
         </form>
       </section>
     </main>
     <footer class="page-footer">
-      <section class="footer__social">
-        <h2 class="visually-hidden">Мы в социальных сетях</h2>
-        <ul class="footer__social-list">
-          <li class="footer__social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">ВКонтакте</span>
-            </a>
-          </li>
-          <li class="footer__social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">Телеграм</span>
-            </a>
-          </li>
-          <li class="footer__social-item">
-            <a class="button" href="#">
-              <span class="visually-hidden">YouTube</span>
-            </a>
-          </li>
-        </ul>
-      </section>
-      <section class="footer__contacts">
-        <h2 class="visually-hidden">Номер телефона</h2>
-        <address class="footer__contacts-phone">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">ВКонтакте</span>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="button" href="#">
+            <span class="visually-hidden">YouTube</span>
+          </a>
+        </li>
+      </ul>
+      <div class="footer__phone-wrap">
+        <address class="footer__phone">
           <a href="tel:+78005558628">+7 800 555-86-28</a>
         </address>
-      </section>
-      //можно так? не делать отдельной секции для этой ссылки.
-      <a class="htmlacademy-link" href="https://htmlacademy.ru/">.html academy</a>
+      </div>
+      <a class="htmlacademy-link">
+        <img src="#" width="115" height="33" alt="Логотип HTML Academy">
+      </a>
     </footer>
-
-    
   </body>
 
 </html>
