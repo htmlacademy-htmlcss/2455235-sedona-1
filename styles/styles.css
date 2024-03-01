@@ -1,0 +1,172 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+body {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 117%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(51, 51, 51);
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+address {
+  font-style: normal;
+
+}
+
+.navigation__link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.section-lead, .section-title, .catalog-hotels__text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 120%;
+  text-transform: uppercase;
+
+  color: rgb(0, 0, 0);
+}
+
+.section-lead, .section-title {
+  text-align: center;
+}
+
+.section-title_light {
+  color: rgb(255, 255, 255);
+}
+
+.section-description, .pagination__separator {
+  font-size: 22px;
+  line-height: 118%;
+  text-align: center;
+}
+
+.section-description_light {
+  color: rgb(255, 255, 255);
+}
+
+.advantages__title, .invitation__title, .card__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
+.advantages__title, .invitation__title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.advantages__title_light {
+  color: rgb(255, 255, 255);
+}
+
+
+.field::-webkit-input-placeholder {
+  line-height: 133%;
+  opacity: 0.6;
+  color: rgb(0, 0, 0);
+}
+
+.field::-moz-placeholder {
+  line-height: 133%;
+  opacity: 0.6;
+  color: rgb(0, 0, 0);
+}
+
+.field::-moz-placeholder {
+  line-height: 133%;
+  opacity: 0.6;
+  color: rgb(0, 0, 0);
+}
+
+.field::-ms-input-placeholder {
+  line-height: 133%;
+  opacity: 0.6;
+  color: rgb(0, 0, 0);
+}
+
+.footer__phone {
+  font-size: 40px;
+  line-height: 100%;
+  text-transform: uppercase;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.inner-header__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 130%;
+  color: rgb(255, 255, 255);
+}
+
+.breadcrumbs__link {
+  font-size: 16px;
+  line-height: 131%;
+  color: rgb(255, 255, 255);
+}
+
+.filter-form__title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  color: rgb(255, 255, 255);
+}
+
+.control {
+  line-height: 128%;
+  color: rgb(255, 255, 255);
+}
+
+.card__rating {
+  font-size: 16px;
+  line-height: 125%;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.button_pagination {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: center;
+}
+
+.button_pagination-current {
+  color: rgb(0, 0, 0);
+}
