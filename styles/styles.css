@@ -19,7 +19,7 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 117%;
+  line-height: 21px;
   background-color: rgb(255, 255, 255);
   color: rgb(51, 51, 51);
 }
@@ -40,15 +40,16 @@ address {
 .navigation__link {
   font-weight: 700;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 24px;
   color: rgb(0, 0, 0);
+  text-align: center;
 }
 
 .button {
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 16px;
-  line-height: 125%;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -56,9 +57,8 @@ address {
 .section-lead, .section-title, .catalog-hotels__text {
   font-weight: 700;
   font-size: 30px;
-  line-height: 120%;
+  line-height: 36px;
   text-transform: uppercase;
-
   color: rgb(0, 0, 0);
 }
 
@@ -72,7 +72,7 @@ address {
 
 .section-description, .pagination__separator {
   font-size: 22px;
-  line-height: 118%;
+  line-height: 26px;
   text-align: center;
 }
 
@@ -97,32 +97,32 @@ address {
 
 
 .field::-webkit-input-placeholder {
-  line-height: 133%;
+  line-height: 24px;
   opacity: 0.6;
   color: rgb(0, 0, 0);
 }
 
 .field::-moz-placeholder {
-  line-height: 133%;
+  line-height: 24px;
   opacity: 0.6;
   color: rgb(0, 0, 0);
 }
 
 .field::-moz-placeholder {
-  line-height: 133%;
+  line-height: 24px;
   opacity: 0.6;
   color: rgb(0, 0, 0);
 }
 
 .field::-ms-input-placeholder {
-  line-height: 133%;
+  line-height: 24px;
   opacity: 0.6;
   color: rgb(0, 0, 0);
 }
 
 .footer__phone {
   font-size: 40px;
-  line-height: 100%;
+  line-height: 40px;
   text-transform: uppercase;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -131,31 +131,31 @@ address {
 .inner-header__title {
   font-weight: 700;
   font-size: 60px;
-  line-height: 130%;
+  line-height: 78px;
   color: rgb(255, 255, 255);
 }
 
 .breadcrumbs__link {
   font-size: 16px;
-  line-height: 131%;
+  line-height: 21px;
   color: rgb(255, 255, 255);
 }
 
 .filter-form__title {
   font-weight: 700;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 36px;
   color: rgb(255, 255, 255);
 }
 
 .control {
-  line-height: 128%;
+  line-height: 23px;
   color: rgb(255, 255, 255);
 }
 
 .card__rating {
   font-size: 16px;
-  line-height: 125%;
+  line-height: 20px;
   text-transform: uppercase;
   text-align: center;
 }
@@ -163,7 +163,7 @@ address {
 .button_pagination {
   font-weight: 700;
   font-size: 20px;
-  line-height: 180%;
+  line-height: 36px;
   text-align: center;
 }
 
