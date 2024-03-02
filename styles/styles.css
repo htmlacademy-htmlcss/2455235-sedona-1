@@ -24,8 +24,22 @@ body {
   color: rgb(51, 51, 51);
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 
 .button {
+  text-decoration: none;
   color: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 16px;
@@ -97,7 +111,7 @@ body {
   background-color: rgb(130, 179, 211);
 }
 
-.advantages__item_dark-background {
+.advantages__item_darker-background {
   background: rgba(131, 179, 211, 0.2);
 }
 
@@ -137,30 +151,6 @@ body {
 
 .advantages__title_light {
   color: rgb(255, 255, 255);
-}
-
-.field::-webkit-input-placeholder {
-  line-height: 24px;
-  opacity: 0.6;
-  color: rgb(0, 0, 0);
-}
-
-.field::-moz-placeholder {
-  line-height: 24px;
-  opacity: 0.6;
-  color: rgb(0, 0, 0);
-}
-
-.field::-moz-placeholder {
-  line-height: 24px;
-  opacity: 0.6;
-  color: rgb(0, 0, 0);
-}
-
-.field::-ms-input-placeholder {
-  line-height: 24px;
-  opacity: 0.6;
-  color: rgb(0, 0, 0);
 }
 
 .page-footer address {
@@ -208,6 +198,9 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.card__link{
+  text-decoration: none;
+}
 .card__rating {
   font-size: 16px;
   line-height: 20px;
