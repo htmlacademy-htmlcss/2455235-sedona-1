@@ -59,7 +59,6 @@ body {
 
 .button_in-favourites {
   background-color: rgb(125, 181, 79);
-  ;
 }
 
 .button_show {
@@ -125,7 +124,7 @@ body {
   text-align: center;
 }
 
-.section-description_light {
+.section-description_light, .advantages__title_light {
   color: rgb(255, 255, 255);
 }
 
@@ -147,10 +146,6 @@ body {
 
 .subscribe_catalog {
   background: rgb(255, 255, 255);
-}
-
-.advantages__title_light {
-  color: rgb(255, 255, 255);
 }
 
 .page-footer address {
