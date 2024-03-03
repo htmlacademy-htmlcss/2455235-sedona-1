@@ -37,7 +37,6 @@ body {
   overflow: hidden;
 }
 
-
 .button {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -49,10 +48,17 @@ body {
   background: rgb(130, 179, 211);
 }
 
-.button_to-catalog, .button_search, .button_details {
+.button_to-catalog {
   background-color: rgb(117, 97, 87);
 }
 
+.button_search {
+  background-color: rgb(117, 97, 87);
+}
+
+.button_details {
+  background-color: rgb(117, 97, 87);
+}
 .button_reset {
   background-color: transparent;
 }
@@ -64,6 +70,29 @@ body {
 .button_show {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+.section-title_light {
+  color: rgb(255, 255, 255);
+}
+
+.section-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.section-description_light {
+  color: rgb(255, 255, 255);
 }
 
 .hero {
@@ -80,30 +109,18 @@ body {
   text-align: center;
 }
 
-
-.section-lead, .section-title, .catalog-hotels__text {
+.section-lead {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
   color: rgb(0, 0, 0);
-}
-
-.section-lead, .section-title {
   text-align: center;
 }
 
-.section-title_light {
-  color: rgb(255, 255, 255);
-}
-
-.advantages__list, .invitation__list {
-  text-align: center;
-}
-
-
-.advantages__item, .invitation__item {
+.advantages__item {
   background-color: rgba(131, 179, 211, 0.122);
+  text-align: center;
 }
 
 .advantages__item_wide {
@@ -114,38 +131,39 @@ body {
   background: rgba(131, 179, 211, 0.2);
 }
 
+.advantages__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+
+.advantages__title_light {
+  color: rgb(255, 255, 255);
+}
+.advantages__description_light{
+  color: rgb(255, 255, 255);
+}
+
+.invitation__item {
+  background-color: rgba(131, 179, 211, 0.122);
+  text-align: center;
+}
+
 .invitation__item_background-light {
   background-color: rgb(255, 255, 255);
 }
 
-.section-description, .pagination__separator {
-  font-size: 22px;
-  line-height: 26px;
-  text-align: center;
-}
-
-.section-description_light, .advantages__title_light {
-  color: rgb(255, 255, 255);
-}
-
-.advantages__title, .invitation__title, .card__title {
+.invitation__title{
   font-weight: 700;
   font-size: 24px;
   color: rgb(0, 0, 0);
-}
-
-.advantages__title, .invitation__title {
-  text-align: center;
   text-transform: uppercase;
 }
 
 .subscribe {
   background: rgb(130, 179, 212) url('../images/mountains_subscribe.jpg') no-repeat;
   background-size: 100% auto;
-}
-
-.subscribe_catalog {
-  background: rgb(255, 255, 255);
 }
 
 .page-footer address {
@@ -193,6 +211,20 @@ body {
   color: rgb(255, 255, 255);
 }
 
+.catalog-hotels__text {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 24px;
+  color: rgb(0, 0, 0);
+}
+
 .card__link{
   text-decoration: none;
 }
@@ -204,6 +236,12 @@ body {
   background-color: rgb(242, 242, 242);
 }
 
+.pagination__separator {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+
 .button_pagination {
   font-weight: 700;
   font-size: 20px;
@@ -213,4 +251,11 @@ body {
 .button_pagination-current {
   color: rgb(0, 0, 0);
   background-color: rgb(242, 242, 242);
+}
+.subscribe_catalog {
+  background: rgb(255, 255, 255);
+}
+
+.field_catalog-subsribe{
+  background-color: #F2F2F2;
 }
