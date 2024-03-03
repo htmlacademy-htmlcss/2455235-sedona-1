@@ -96,7 +96,7 @@ body {
 }
 
 .hero {
-  background: rgb(130, 179, 212) url('../images/mountains_hero.jpg') no-repeat;
+  background: rgb(130, 179, 212) url("../images/mountains_hero.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -162,7 +162,7 @@ body {
 }
 
 .subscribe {
-  background: rgb(130, 179, 212) url('../images/mountains_subscribe.jpg') no-repeat;
+  background: rgb(130, 179, 212) url("../images/mountains_subscribe.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -181,7 +181,7 @@ body {
 }
 
 .wrap-header-filters {
-  background: rgb(130, 179, 212) url('../images/mountain_catalog.jpg') no-repeat;
+  background: rgb(130, 179, 212) url("../images/mountain_catalog.jpg") no-repeat;
   background-size: 100% auto;
 }
 
