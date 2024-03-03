@@ -20,8 +20,8 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 21px;
-  background-color: rgb(255, 255, 255);
-  color: rgb(51, 51, 51);
+  background-color: #ffffff;
+  color: #333333;
 }
 
 .visually-hidden {
@@ -39,37 +39,37 @@ body {
 
 .button {
   text-decoration: none;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
-  background: rgb(130, 179, 211);
+  background: #82b3d3;
 }
 
 .button_to-catalog {
-  background-color: rgb(117, 97, 87);
+  background-color: #756157;
 }
 
 .button_search {
-  background-color: rgb(117, 97, 87);
+  background-color: #756157;
 }
 
 .button_details {
-  background-color: rgb(117, 97, 87);
+  background-color: #756157;
 }
 .button_reset {
   background-color: transparent;
 }
 
 .button_in-favourites {
-  background-color: rgb(125, 181, 79);
+  background-color: #7db54f;
 }
 
 .button_show {
-  background-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  color: #000000;
 }
 
 .section-title {
@@ -77,12 +77,12 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-align: center;
 }
 
 .section-title_light {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .section-description {
@@ -92,11 +92,11 @@ body {
 }
 
 .section-description_light {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .hero {
-  background: rgb(130, 179, 212) url("../images/mountains_hero.jpg") no-repeat;
+  background: #82b3d4 url("../images/mountains_hero.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -105,7 +105,7 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-align: center;
 }
 
@@ -114,7 +114,7 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-align: center;
 }
 
@@ -124,7 +124,7 @@ body {
 }
 
 .advantages__item_wide {
-  background-color: rgb(130, 179, 211);
+  background-color: #82b3d3;
 }
 
 .advantages__item_darker-background {
@@ -134,15 +134,15 @@ body {
 .advantages__title {
   font-weight: 700;
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-transform: uppercase;
 }
 
 .advantages__title_light {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 .advantages__description_light{
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .invitation__item {
@@ -151,18 +151,18 @@ body {
 }
 
 .invitation__item_background-light {
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
 }
 
 .invitation__title{
   font-weight: 700;
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: #000000;
   text-transform: uppercase;
 }
 
 .subscribe {
-  background: rgb(130, 179, 212) url("../images/mountains_subscribe.jpg") no-repeat;
+  background: #82b3d4 url("../images/mountains_subscribe.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -177,11 +177,11 @@ body {
   font-size: 40px;
   line-height: 40px;
   text-align: center;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .wrap-header-filters {
-  background: rgb(130, 179, 212) url("../images/mountain_catalog.jpg") no-repeat;
+  background: #82b3d4 url("../images/mountain_catalog.jpg") no-repeat;
   background-size: 100% auto;
 }
 
@@ -189,26 +189,26 @@ body {
   font-weight: 700;
   font-size: 60px;
   line-height: 78px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .breadcrumbs__link {
   text-decoration: none;
   font-size: 16px;
   line-height: 21px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .filter-form__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .control {
   line-height: 23px;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .catalog-hotels__text {
@@ -216,13 +216,13 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .card__title {
   font-weight: 700;
   font-size: 24px;
-  color: rgb(0, 0, 0);
+  color: #000000;
 }
 
 .card__link{
@@ -233,7 +233,7 @@ body {
   line-height: 20px;
   text-transform: uppercase;
   text-align: center;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
 }
 
 .pagination__separator {
@@ -249,11 +249,11 @@ body {
 }
 
 .button_pagination-current {
-  color: rgb(0, 0, 0);
-  background-color: rgb(242, 242, 242);
+  color: #000000;
+  background-color: #f2f2f2;
 }
 .subscribe_catalog {
-  background: rgb(255, 255, 255);
+  background: #ffffff;
 }
 
 .field_catalog-subsribe{
