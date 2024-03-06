@@ -92,24 +92,35 @@ body {
 }
 
 .button {
-  text-decoration: none;
+  all: unset;
   color: #ffffff;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 36px;
   text-transform: uppercase;
   text-align: center;
   background: #82b3d3;
   border-radius: 4px;
+  padding: 8px 50px;
 }
 
 .button_to-catalog {
   background-color: #756157;
   padding: 8px 34px;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .button_search {
   background-color: #756157;
+
+}
+
+.button_subscribe {
+  box-sizing: border-box;
+  width: 232px;
+  height: 52px;
+  border-radius: 0 4px 4px 0;
 }
 
 .button_details {
@@ -202,7 +213,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-    background-color: rgba(131, 179, 211, 0.122);
+  background-color: rgba(131, 179, 211, 0.122);
   text-align: center;
   width: 400px;
 }
@@ -212,7 +223,8 @@ body {
   background-color: #82b3d3;
   width: 100%;
 }
-.advantages__item_wide .advantages__wrap-description{
+
+.advantages__item_wide .advantages__wrap-description {
   padding-left: 85px;
   padding-right: 85px;
 }
@@ -244,15 +256,35 @@ body {
   color: #ffffff;
 }
 
+.invitation__wrap-titles {
+  margin: 0 auto;
+  width: 505px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
 .invitation__list {
+  display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
 .invitation__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: rgba(131, 179, 211, 0.122);
   text-align: center;
+  width: 400px;
+}
+
+.invitation__wrap-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
 }
 
 .invitation__item_background-light {
@@ -266,15 +298,72 @@ body {
   text-transform: uppercase;
 }
 
+.search__wrap {
+  width: 592px;
+  margin: 0 auto;
+  padding-top: 96px;
+  padding-bottom: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .subscribe {
   background: #82b3d4 url("../images/mountains_subscribe.jpg") no-repeat;
   background-size: 100% auto;
+}
+
+.subscribe__wrap {
+  margin: 0 auto;
+  width: 684px;
+  padding-top: 96px;
+  padding-bottom: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section-description_subscribe{
+  width: 475px;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.subscribe-form__input {
+  all: unset;
+  display: block;
+  width: 452px;
+  height: 52px;
+  border-radius: 4px 0 0 4px;
+  background-color: #F2F2F2;
+}
+
+.page-footer {
+  min-height: 120px;
+  padding: 40px 70px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
 
 .footer__social-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+}
+
+.footer__link{
+ width: 47px;
+ height: 40px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
 }
 
 .page-footer address {

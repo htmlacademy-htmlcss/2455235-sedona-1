@@ -93,9 +93,9 @@
             </li>
             <li class="advantages__item">
               <div class="advantages__wrap-description">
-              <h3 class="advantages__title">Небольшая
-                площадь</h3>
-              <p class="advantages__description">Все достопримечательности находятся очень близко</p>
+                <h3 class="advantages__title">Небольшая
+                  площадь</h3>
+                <p class="advantages__description">Все достопримечательности находятся очень близко</p>
               </div>
             </li>
             <li class="advantages__item advantages__item_darker-background">
@@ -113,66 +113,81 @@
               </div>
             </li>
             <li class="advantages__item advantages__item_wide">
+              <img class="advantages__cover" src="images/mountains_advantages.jpg" width="800" height="385"
+                alt="Вид на мост Дьявола">
               <div class="advantages__wrap-description">
                 <h3 class="advantages__title advantages__title_light">Там есть
                   мост дьявола</h3>
                 <p class="advantages__description advantages__description_light">Да, по нему можно пройти! Если вы
                   осмелитесь, разумеется</p>
               </div>
-              <img class="advantages__cover" src="images/mountains_advantages.jpg" width="800" height="385"
-                alt="Вид на мост Дьявола">
+
             </li>
           </ul>
         </section>
 
         <section class="invitation">
-          <h2 class="section-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
-          <p class="section-description">Опытный персонал и качественное обслуживание!</p>
+          <div class="invitation__wrap-titles">
+            <h2 class="section-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
+            <p class="section-description">Опытный персонал и качественное обслуживание!</p>
+          </div>
           <ul class="invitation__list">
             <li class="invitation__item">
-              <h3 class="invitation__title">Жильё</h3>
-              <p class="invitation__description">Рекомендуем пожитьв настоящем мотеле,
-                всё как в кино!</p>
+              <div class="invitation__wrap-description">
+                <h3 class="invitation__title">Жильё</h3>
+                <p class="invitation__description">Рекомендуем пожитьв настоящем мотеле,
+                  всё как в кино!</p>
+              </div>
             </li>
             <li class="invitation__item invitation__item_background-light">
-              <h3 class="invitation__title">Еда</h3>
-              <p class="invitation__description">Всегда заказывайте
-                топовый фирменный бургер, вы не разочаруетесь!</p>
+              <div class="invitation__wrap-description">
+                <h3 class="invitation__title">Еда</h3>
+                <p class="invitation__description">Всегда заказывайте
+                  топовый фирменный бургер, вы не разочаруетесь!</p>
+              </div>
             </li>
             <li class="invitation__item">
-              <h3 class="invitation__title">Сувениры</h3>
-              <p class="invitation__description">Не только китайского,
-                но и настоящего местного производства!</p>
+              <div class="invitation__wrap-description">
+                <h3 class="invitation__title">Сувениры</h3>
+                <p class="invitation__description">Не только китайского,
+                  но и настоящего местного производства!</p>
+              </div>
             </li>
           </ul>
         </section>
 
         <section class="search">
+          <div class="search__wrap">
           <h2 class="section-title">Заинтересовались?</h2>
           <p class="section-description">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения
             гостиниц
             в Седоне</p>
           <button class="button button_search" type="button">Поиск гостиницы в Седоне</button>
+        </div>
         </section>
 
         <section class="subscribe">
+          <div class="subscribe__wrap">
           <h2 class="section-title section-title_light">Подпишитесь на рассылку</h2>
-          <p class="section-description section-description_light">Только полезная информация и никакого спама,
+          <p class="section-description section-description_light section-description_subscribe">Только полезная информация и никакого спама,
             честное бойскаутское!</p>
+
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email"
+            <input class="field subscribe-form__input" placeholder="Ваш e-mail" type="email" name="subscribe-email" id="subscribe-email"
               required>
             <button class="button button_subscribe" type="submit">Подписаться</button>
           </form>
+        </div>
         </section>
 
       </main>
 
 
       <footer class="page-footer">
+
         <ul class="footer__social-list">
           <li class="footer__social-item">
-            <a href="#">
+            <a class="footer__link" href="#" >
               <span class="visually-hidden">
                 ВКонтакте
               </span>
@@ -185,7 +200,7 @@
             </a>
           </li>
           <li class="footer__social-item">
-            <a href="#">
+            <a class="footer__link" href="#">
               <span class="visually-hidden">
                 Телеграм
               </span>
@@ -198,7 +213,7 @@
 
           </li>
           <li class="footer__social-item">
-            <a href="#">
+            <a class="footer__link" href="#">
               <span class="visually-hidden">
                 YouTube
               </span>
