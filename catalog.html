@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css">
   </head>
 
-  <body>
+
     <div class="container">
 
       <header class="page-header">
@@ -57,7 +57,7 @@
                 </a>
               </li>
             </ul>
-            <a class="button button_to-catalog">Хочу сюда!
+            <a class="button button_to-catalog button_small-font">Хочу сюда!
             </a>
           </div>
         </nav>
@@ -140,115 +140,167 @@
                   <legend class="filter-form__title">Стоимость, ₽:</legend>
                   <ul class="filter-form__inputs-list">
                     <li class="filter-form__item">
-                      <input class="control__input control__input_price" type="number" name="price-min" value="0" placeholder="от">
+                      <input class="control__input control__input_price" type="number" name="price-min" value="0"
+                        placeholder="от">
                     </li>
                     <li class="filter-form__item">
-                      <input class="control__input control__input_price control__input_price-right" type="number" name="price-max" value="9000" placeholder="до">
+                      <input class="control__input control__input_price control__input_price-right" type="number"
+                        name="price-max" value="9000" placeholder="до">
                     </li>
                   </ul>
-                  <input class="control__input control__input_range" type="range" name="range-price" min="0" max="18000" value="9000">
+                  <input class="control__input control__input_range" type="range" name="range-price" min="0" max="18000"
+                    value="9000">
                 </fieldset>
                 <div class="filter-form__button-box">
-                  <button class="button button_submit" type="submit">Применить</button>
-                  <button class="button button_reset" type="reset">Сбросить</button>
+                  <button class="button button_submit button_small-font" type="submit">Применить</button>
+                  <button class="button button_reset button_small-font" type="reset">Сбросить</button>
                 </div>
               </div>
             </form>
           </section>
-        </div>
 
+        </div>
         <section class="catalog-hotels">
-          <h2 class="visually-hidden">Список гостиниц</h2>
-          <p class="catalog-hotels__text">Найдено гостиниц: <span class="result">38</span></p>
-          <select class="select-control" aria-label="Сортировка">
-            <option value="cheap">Сначала дешевые</option>
-            <option value="expensive">Сначала дорогие</option>
-            <option value="popular">Сначала популярные</option>
-          </select>
-          <ul class="show-buttons">
-            <li class="show-buttons__item">
-              <button class="button button_show button_show-current" type="button">
-                <span class="visually-hidden">Показать гостиницы таблицей</span>
-              </button>
-            </li>
-            <li class="show-buttons__item">
-              <button class="button button_show" type="button">
-                <span class="visually-hidden">Показать гостиницы по одной на странице</span>
-              </button>
-            </li>
-            <li class="show-buttons__item">
-              <button class="button button_show" type="button">
-                <span class="visually-hidden">Показать гостиницы списком</span>
-              </button>
-            </li>
-          </ul>
+          <div class="catalog-hotels__top-box">
+            <h2 class="visually-hidden">Список гостиниц</h2>
+            <p class="catalog-hotels__text">Найдено гостиниц: <span class="result">38</span></p>
+            <div class="catalog-hotels__sort-box">
+              <select class="select-control" aria-label="Сортировка">
+                <option value="cheap">Сначала дешевые</option>
+                <option value="expensive">Сначала дорогие</option>
+                <option value="popular">Сначала популярные</option>
+              </select>
+              <ul class="show-buttons">
+                <li class="show-buttons__item">
+                  <button class="button button_show button_show-current" type="button">
+                    <span class="visually-hidden">Показать гостиницы таблицей</span>
+                  </button>
+                </li>
+                <li class="show-buttons__item">
+                  <button class="button button_show" type="button">
+                    <span class="visually-hidden">Показать гостиницы по одной на странице</span>
+                  </button>
+                </li>
+                <li class="show-buttons__item">
+                  <button class="button button_show" type="button">
+                    <span class="visually-hidden">Показать гостиницы списком</span>
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
           <ul class="hotel-list">
             <li class="hotel-list__item">
               <article class="card">
-                <a class="card__link" href="hotel.html">
+                <a class="card__link" href="#">
                   <img class="card__image" src="images/catalog/amara_resort_and_spa.jpg"
                     alt="Вид из гостиницы Amara Resort & Spa" width="300" height="212">
-                  <h3 class="card__title">Amara Resort & Spa</h3>
                 </a>
-                <p class="card__type">Гостиница</p>
-                <p class="card__price">От 744 ₽</p>
-                <a class="button button_details" href="#">подробнее</a>
-                <button class="button button_favourite" type="button">в избранное</button>
-                <p class="star-rating star-rating_4">
-                  <span class="visually-hidden">4 звезды</span>
-                </p>
-                <p class="card__rating">Рейтинг: 8,5</p>
+                <div class="card__info">
+                  <a class="card__link" href="#">
+                    <h3 class="card__title">Amara Resort & Spa</h3>
+                  </a>
+                  <div class="card__info-wrap">
+                    <p class="card__type">Гостиница</p>
+                    <p class="card__price">От 744 ₽</p>
+                  </div>
+                  <div class="card__info-wrap">
+                    <a class="button button_details button_small-font" href="#">подробнее</a>
+                    <button class="button button_favourite button_small-font" type="button">в избранное</button>
+                  </div>
+                  <div class="card__info-wrap">
+                    <p class="star-rating star-rating_4">
+                      <span class="visually-hidden">4 звезды</span>
+                    </p>
+                    <p class="card__rating">Рейтинг: 8,5</p>
+                  </div>
+                </div>
               </article>
+
             </li>
             <li class="hotel-list__item">
               <article class="card">
-                <a class="card__link" href="hotel.html">
+                <a class="card__link" href="#">
                   <img class="card__image" src="images/catalog/villas_at_poco_diablo.jpg"
                     alt="Вид из гостиницы Villas at Poco Diablo" width="300" height="212">
-                  <h3 class="card__title">Villas at Poco Diablo</h3>
                 </a>
-                <p class="card__type">Гостиница</p>
-                <p class="card__price">От 5000 ₽</p>
-                <a class="button button_details" href="#">подробнее</a>
-                <button class="button button_favourite button_in-favourites" type="button">в избранном</button>
-                <p class="star-rating star-rating_4">
-                  <span class="visually-hidden">4 звезды</span>
-                </p>
-                <p class="card__rating">Рейтинг: 9,2</p>
+                <div class="card__info">
+                  <a class="card__link" href="#">
+                    <h3 class="card__title">Villas at Poco Diablo</h3>
+                  </a>
+                  <div class="card__info-wrap">
+                    <p class="card__type">Гостиница</p>
+                    <p class="card__price">От 5000 ₽</p>
+                  </div>
+                  <div class="card__info-wrap">
+                    <a class="button button_details button_small-font" href="#">подробнее</a>
+                    <button class="button button_favourite button_in-favourites button_small-font" type="button">в
+                      избранном</button>
+                  </div>
+                  <div class="card__info-wrap">
+                    <p class="star-rating star-rating_4">
+
+                      <span class="visually-hidden">4 звезды</span>
+                    </p>
+                    <p class="card__rating">Рейтинг: 9,2</p>
+                  </div>
+                </div>
               </article>
             </li>
             <li class="hotel-list__item">
               <article class="card">
-                <a class="card__link" href="hotel.html">
+                <a class="card__link" href="#">
                   <img class="card__image" src="images/catalog/desert_quail_inn.jpg"
                     alt="Вид из гостиницы Villas at Poco Diablo" width="300" height="212">
-                  <h3 class="card__title">Desert Quail Inn</h3>
                 </a>
-                <p class="card__type">Гостиница</p>
-                <p class="card__price">От 2500 ₽</p>
-                <a class="button button_details" href="#">подробнее</a>
-                <button class="button button_favourite" type="button">в избранное</button>
-                <p class="star-rating star-rating_3">
-                  <span class="visually-hidden">3 звезды</span>
-                </p>
-                <p class="card__rating">Рейтинг: 6,9</p>
+                <div class="card__info">
+                  <a class="card__link" href="#">
+                    <h3 class="card__title">Desert Quail Inn</h3>
+                  </a>
+                  <div class="card__info-wrap">
+                    <p class="card__type">Гостиница</p>
+                    <p class="card__price">От 2500 ₽</p>
+                  </div>
+                  <div class="card__info-wrap">
+                    <a class="button button_details button_small-font" href="#">подробнее</a>
+                    <button class="button button_favourite button_small-font" type="button">в избранное</button>
+                  </div>
+                  <div class="card__info-wrap">
+                    <p class="star-rating star-rating_3">
+                      <span class="visually-hidden">3 звезды</span>
+                    </p>
+                    <p class="card__rating">Рейтинг: 6,9</p>
+                  </div>
+                </div>
+
               </article>
             </li>
             <li class="hotel-list__item">
               <article class="card">
-                <a class="card__link" href="hotel.html">
+                <a class="card__link" href="#">
                   <img class="card__image" src="images/catalog/green_tree_inn.jpg"
                     alt="Вид из гостиницы Villas at Poco Diablo" width="300" height="212">
-                  <h3 class="card__title">GreenTree Inn</h3>
                 </a>
-                <p class="card__type">Гостиница</p>
-                <p class="card__price">От 1500 ₽</p>
-                <a class="button button_details" href="#">подробнее</a>
-                <button class="button button_favourite" type="button">в избранное</button>
-                <p class="star-rating star-rating_2">
-                  <span class="visually-hidden">2 звезды</span>
-                </p>
-                <p class="card__rating">Рейтинг: 5,0</p>
+                <div class="card__info">
+                  <a class="card__link" href="#">
+                    <h3 class="card__title">GreenTree Inn</h3>
+                  </a>
+                  <div class="card__info-wrap">
+                    <p class="card__type">Гостиница</p>
+                    <p class="card__price">От 1500 ₽</p>
+                  </div>
+                  <div class="card__info-wrap">
+                    <a class="button button_details button_small-font" href="#">подробнее</a>
+                    <button class="button button_favourite button_small-font" type="button">в избранное</button>
+                  </div>
+                  <div class="card__info-wrap">
+                    <p class="star-rating star-rating_2">
+                      <span class="visually-hidden">2 звезды</span>
+                    </p>
+                    <p class="card__rating">Рейтинг: 5,0</p>
+                  </div>
+                </div>
               </article>
             </li>
           </ul>
@@ -275,13 +327,19 @@
         </section>
 
         <section class="subscribe subscribe_catalog">
-          <h2 class="section-title">Подпишитесь на рассылку</h2>
-          <p class="section-description">Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field field_catalog-subsribe" placeholder="Ваш e-mail" type="email" name="subscribe-email"
-              id="subscribe-email" required>
-            <button class="button button_subscribe" type="submit">Подписаться</button>
-          </form>
+          <div class="subscribe__wrap">
+            <div class="subscribe__info-wrap">
+              <h2 class="section-title">Подпишитесь на рассылку</h2>
+              <p class="section-description section-description_subscribe">Только полезная
+                информация и никакого спама,
+                честное бойскаутское!</p>
+            </div>
+            <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
+              <input class="field subscribe-form__input" placeholder="Ваш e-mail" type="email" name="subscribe-email"
+                id="subscribe-email" required>
+              <button class="button button_subscribe" type="submit">Подписаться</button>
+            </form>
+          </div>
         </section>
 
       </main>
@@ -336,6 +394,7 @@
         </a>
       </footer>
     </div>
-  </body>
+
+    </body>
 
 </html>
