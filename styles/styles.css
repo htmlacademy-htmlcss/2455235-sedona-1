@@ -146,6 +146,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+  margin: 0;
 }
 
 .section-title_light {
@@ -156,6 +157,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
+  margin: 0;
 }
 
 .section-description_light {
@@ -191,6 +193,7 @@ body {
   text-transform: uppercase;
   color: #000000;
   text-align: center;
+  margin: 0;
 }
 
 .advantages__wrap-titles {
@@ -244,19 +247,25 @@ body {
   padding: 112.5px 85px;
 }
 
+
 .advantages__title {
   font-weight: 700;
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .advantages__title_light {
   color: #ffffff;
 }
+.advantages__description{
+  margin: 0;
+}
 
 .advantages__description_light {
   color: #ffffff;
+
 }
 
 .invitation__wrap-titles {
@@ -290,6 +299,9 @@ body {
   align-items: center;
   width: 230px;
 }
+.invitation__description{
+  margin: 0;
+}
 
 .invitation__item_background-light {
   background-color: #ffffff;
@@ -300,6 +312,7 @@ body {
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
+  margin: 0;
 }
 
 .search__wrap {
