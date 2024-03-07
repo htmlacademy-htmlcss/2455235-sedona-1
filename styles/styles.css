@@ -113,7 +113,6 @@ body {
 
 .button_search {
   background-color: #756157;
-
 }
 
 .button_subscribe {
@@ -216,17 +215,20 @@ body {
   background-color: rgba(131, 179, 211, 0.122);
   text-align: center;
   width: 400px;
+
+}
+
+.advantages__wrap-info {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .advantages__item_wide {
   display: flex;
   background-color: #82b3d3;
   width: 100%;
-}
-
-.advantages__item_wide .advantages__wrap-description {
-  padding-left: 85px;
-  padding-right: 85px;
 }
 
 .advantages__item_darker-background {
@@ -239,6 +241,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 230px;
+  padding: 112.5px 85px;
 }
 
 .advantages__title {
@@ -277,6 +280,7 @@ body {
   background-color: rgba(131, 179, 211, 0.122);
   text-align: center;
   width: 400px;
+  padding: 81px 85px;
 }
 
 .invitation__wrap-description {
@@ -323,7 +327,7 @@ body {
   align-items: center;
 }
 
-.section-description_subscribe{
+.section-description_subscribe {
   width: 475px;
 }
 
@@ -358,12 +362,12 @@ body {
   display: flex;
 }
 
-.footer__link{
- width: 47px;
- height: 40px;
- display: flex;
- align-items: center;
- justify-content: center;
+.footer__link {
+  width: 47px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .page-footer address {
@@ -381,6 +385,8 @@ body {
   color: #000000;
 }
 
+
+
 .filter-form__list {
   list-style: none;
   margin: 0;
@@ -390,6 +396,10 @@ body {
 .wrap-header-filters {
   background: #82b3d4 url("../images/mountain_catalog.jpg") no-repeat;
   background-size: 100% auto;
+  padding: 35px 70px 70px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
 .inner-header__title {
@@ -399,11 +409,37 @@ body {
   color: #ffffff;
 }
 
+.breadcrumbs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+
 .breadcrumbs__link {
   text-decoration: none;
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
+}
+
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-form__left-box {
+
+  display: flex;
+  gap: 70px;
+}
+
+.filter-form__group {
+  width: 150px;
+  border: none;
+  margin: 0;
+  padding: 0;
 }
 
 .filter-form__title {
