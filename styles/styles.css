@@ -105,7 +105,7 @@ body {
   padding: 8px 50px;
 }
 
-.button_small-font{
+.button_small-font {
   font-size: 16px;
   line-height: 20px;
 }
@@ -132,7 +132,8 @@ body {
   background-color: #756157;
   padding: 8px 26px;
 }
-.button_favourite{
+
+.button_favourite {
   padding: 8px 20px;
 }
 
@@ -407,6 +408,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-bottom: 80px;
 }
 
 .card {
@@ -615,7 +617,7 @@ body {
 .card__title {
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px; 
+  line-height: 28px;
   color: #000000;
   margin: 0;
 }
@@ -632,12 +634,21 @@ body {
   background-color: #f2f2f2;
   margin: 0;
 }
-.card__type{
+
+.card__type {
   margin: 0;
 }
 
-.card__price{
+.card__price {
   margin: 0;
+}
+
+.pagination {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .pagination__separator {
@@ -647,9 +658,15 @@ body {
 }
 
 .button_pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
+  width: 60px;
+  height: 60px;
+  padding: 0;
 }
 
 .button_pagination-current {
