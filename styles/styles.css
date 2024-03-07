@@ -259,7 +259,8 @@ body {
 .advantages__title_light {
   color: #ffffff;
 }
-.advantages__description{
+
+.advantages__description {
   margin: 0;
 }
 
@@ -299,7 +300,8 @@ body {
   align-items: center;
   width: 230px;
 }
-.invitation__description{
+
+.invitation__description {
   margin: 0;
 }
 
@@ -399,14 +401,6 @@ body {
   color: #000000;
 }
 
-
-
-.filter-form__list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
 .wrap-header-filters {
   background: #82b3d4 url("../images/mountain_catalog.jpg") no-repeat;
   background-size: 100% auto;
@@ -421,6 +415,7 @@ body {
   font-size: 60px;
   line-height: 78px;
   color: #ffffff;
+  margin: 0;
 }
 
 .breadcrumbs {
@@ -444,16 +439,32 @@ body {
 }
 
 .filter-form__left-box {
-
   display: flex;
   gap: 70px;
 }
 
+.filter-form__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/*флекс не сработал на fieldset*/
 .filter-form__group {
   width: 150px;
   border: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.filter-form__group_inputs-box {
+  width: 288px;
 }
 
 .filter-form__title {
@@ -461,12 +472,51 @@ body {
   font-size: 20px;
   line-height: 36px;
   color: #ffffff;
+  margin: 0;
+  margin-bottom: 32px;
+  padding: 0;
 }
-
 
 .control {
   line-height: 23px;
   color: #ffffff;
+}
+
+.filter-form__right-box {
+  display: flex;
+  gap: 70px;
+}
+
+.filter-form__inputs-list {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.control__input_price {
+  width: 143px;
+  height: 48px;
+  background-color: #F2F2F2;
+  border-radius: 4px 0 0 4px;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.control__input_price-right{
+  border-radius: 0 4px 4px 0;
+}
+
+.control__input_range{
+  padding: 0;
+  margin: 0;
+}
+.filter-form__button-box {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin-top: auto;
 }
 
 .show-buttons {

@@ -136,17 +136,17 @@
                 </fieldset>
               </div>
               <div class="filter-form__right-box">
-                <fieldset class="filter-form__group">
+                <fieldset class="filter-form__group filter-form__group_inputs-box">
                   <legend class="filter-form__title">Стоимость, ₽:</legend>
-                  <ul class="filter-form__list">
+                  <ul class="filter-form__inputs-list">
                     <li class="filter-form__item">
-                      <input class="control__input" type="number" name="price-min" value="0" placeholder="от">
+                      <input class="control__input control__input_price" type="number" name="price-min" value="0" placeholder="от">
                     </li>
                     <li class="filter-form__item">
-                      <input class="control__input" type="number" name="price-max" value="9000" placeholder="до">
+                      <input class="control__input control__input_price control__input_price-right" type="number" name="price-max" value="9000" placeholder="до">
                     </li>
                   </ul>
-                  <input class="control__input" type="range" name="range-price" min="0" max="18000" value="9000">
+                  <input class="control__input control__input_range" type="range" name="range-price" min="0" max="18000" value="9000">
                 </fieldset>
                 <div class="filter-form__button-box">
                   <button class="button button_submit" type="submit">Применить</button>
