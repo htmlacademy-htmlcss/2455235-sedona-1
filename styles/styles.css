@@ -323,6 +323,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 54px;
 }
 
 .subscribe {
@@ -332,15 +333,15 @@ body {
 
 .subscribe__wrap {
   margin: 0 auto;
-  width: 684px;
   padding-top: 96px;
   padding-bottom: 104px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 54px;
 }
 
-.section-description_subscribe {
+.subscribe__info-wrap {
   width: 475px;
 }
 
