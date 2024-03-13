@@ -13,6 +13,11 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+*,
+*::before,
+*::after{
+  box-sizing: border-box;
+}
 
 html {
   height: 100%;
@@ -137,7 +142,6 @@ body {
 }
 
 .button_subscribe {
-  box-sizing: border-box;
   width: 232px;
   height: 52px;
   border-radius: 0 4px 4px 0;
@@ -435,7 +439,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  box-sizing: border-box;
 }
 
 .card__image {
@@ -461,7 +464,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-sizing: border-box;
 }
 
 .footer__social-list {
