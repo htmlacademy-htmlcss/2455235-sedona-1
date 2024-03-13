@@ -678,6 +678,7 @@ body {
 .pagination {
   display: flex;
   gap: 8px;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -696,9 +697,9 @@ body {
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
-  width: 60px;
+  min-width: 60px;
   height: 60px;
-  padding: 0;
+  padding: 8px;
 }
 
 .button_pagination-current {
