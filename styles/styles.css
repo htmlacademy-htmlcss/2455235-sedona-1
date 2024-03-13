@@ -169,6 +169,9 @@ body {
 .button_show {
   background-color: #ffffff;
   color: #000000;
+  width: 47px;
+  height: 47px;
+  padding: 0;
 }
 
 .section-title {
@@ -417,6 +420,7 @@ body {
 .catalog-hotels__sort-box {
   display: flex;
   gap: 70px;
+  margin-left: auto;
 }
 
 .select-control {
@@ -625,6 +629,8 @@ body {
 }
 
 .show-buttons {
+  display: flex;
+  gap: 8px;
   list-style: none;
   margin: 0;
   padding: 0;
