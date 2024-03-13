@@ -112,8 +112,11 @@ body {
 }
 
 .button {
+  all: unset;
+  box-sizing: border-box;
   border: none;
   color: #ffffff;
+  text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -122,6 +125,7 @@ body {
   background: #82b3d3;
   border-radius: 4px;
   padding: 8px 50px;
+  margin: 0;
 }
 
 .button_small-font {
