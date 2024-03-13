@@ -13,9 +13,10 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+
 *,
 *::before,
-*::after{
+*::after {
   box-sizing: border-box;
 }
 
@@ -110,7 +111,6 @@ body {
   padding: 12px 12px;
 }
 
-/*  */
 .button {
   all: unset;
   border: none;
@@ -199,13 +199,13 @@ body {
 .hero {
   background: #82b3d4 url("../images/mountains_hero.jpg") no-repeat;
   background-size: 100% auto;
+  padding-top: 51px;
+  padding-bottom: 82px;
 }
 
 .hero__image {
   display: block;
   margin: 0 auto;
-  padding: 51px;
-  padding-bottom: 82px;
 }
 
 .navigation__link {
@@ -256,6 +256,10 @@ body {
   min-height: 385px;
 }
 
+.advantages__cover {
+  display: block;
+}
+
 .advantages__wrap-info {
   width: 400px;
   display: flex;
@@ -265,6 +269,7 @@ body {
 
 .advantages__item_wide {
   display: flex;
+  justify-content: space-between;
   background-color: #82b3d3;
   width: 100%;
 }
@@ -278,7 +283,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 230px;
+  width: 400px;
   padding: 70px 85px;
 }
 
