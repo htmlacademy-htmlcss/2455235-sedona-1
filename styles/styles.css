@@ -59,7 +59,6 @@ body {
 
 .page-header {
   min-height: 64px;
-  height: 64px;
   padding-left: 70px;
   padding-right: 70px;
   display: flex;
@@ -73,6 +72,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 32px;
+}
+
+.logo{
+  align-self: flex-start;
+  display: block;
+  margin-bottom: -6px;
+  z-index: 1;
+}
+
+.logo-img{
+  display: block;
 }
 
 .navigation__list {
@@ -80,18 +91,20 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .navigation__wrap-icons-button {
   display: flex;
   align-items: center;
   gap: 20px;
+  flex-shrink: 0;
 }
 
 .navigation__user a {
-  padding: 22px 12px;
+  padding: 12px 12px;
 }
-
+/*  */
 .button {
   all: unset;
   border: none;
@@ -190,13 +203,14 @@ body {
 }
 
 .navigation__link {
+  display: block;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   color: #000000;
   text-align: center;
-  padding: 20px 16px;
+  padding: 10px 16px;
 }
 
 .section-lead {
