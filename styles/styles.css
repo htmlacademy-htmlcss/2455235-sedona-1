@@ -440,6 +440,10 @@ body {
 
 .select-control {
   font-family: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
   width: 292px;
   height: 49px;
   appearance: none;
