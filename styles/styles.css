@@ -338,20 +338,18 @@ body {
 .invitation__item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background-color: rgba(131, 179, 211, 0.122);
-  text-align: center;
   width: 400px;
   min-height: 385px;
-  padding-top: 183px;
+  padding: 183px 85px 40px 85px;
 }
 
 .invitation__description {
   margin: 0;
   text-align: center;
-  width: 230px;
-}
+ }
 
 .invitation__item_background-light {
   background-color: #ffffff;
@@ -647,6 +645,8 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 48px;
+  height: 48px;
 }
 
 .catalog-hotels__text {
