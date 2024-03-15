@@ -108,7 +108,12 @@ body {
 }
 
 .navigation__user a {
-  padding: 12px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 64px;
+  min-width: 44px;
+  padding: 0;
 }
 
 .button {
@@ -240,8 +245,7 @@ body {
   margin: 0 auto;
   width: 651px;
   padding-top: 69px;
-  padding-bottom: 69px;
-  margin-bottom: 21px;
+  padding-bottom: 90px;
 }
 
 .advantages__list {
@@ -340,6 +344,7 @@ body {
   text-align: center;
   width: 400px;
   min-height: 385px;
+  padding-top: 183px;
 }
 
 .invitation__description {
@@ -529,6 +534,7 @@ body {
   line-height: 78px;
   color: #ffffff;
   margin: 0;
+  margin-bottom: 8px;
 }
 
 .breadcrumbs {
@@ -536,7 +542,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 10px;
+  gap: 29px;
 }
 
 .breadcrumbs__link {
