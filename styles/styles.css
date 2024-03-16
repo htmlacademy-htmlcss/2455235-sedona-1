@@ -535,7 +535,7 @@ body {
   padding: 35px 70px 70px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 32px;
 }
 
 .inner-header__title {
@@ -544,7 +544,6 @@ body {
   line-height: 1.3;
   color: #ffffff;
   margin: 0;
-  margin-bottom: 8px;
 }
 
 .breadcrumbs {
@@ -556,10 +555,15 @@ body {
 }
 
 .breadcrumbs__link {
+  display: block;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.31;
   color: #ffffff;
+  padding: 8px;
+}
+.breadcrumbs__item:first-child a{
+   padding: 8px 8px 8px 0;
 }
 
 .filter-form {
