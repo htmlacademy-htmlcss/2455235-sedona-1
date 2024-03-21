@@ -275,13 +275,6 @@ body {
   display: block;
 }
 
-.advantages__wrap-info {
-  width: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .advantages__item_wide {
   display: flex;
   justify-content: space-between;
@@ -335,6 +328,7 @@ body {
 
 .invitation__list {
   display: flex;
+  flex-wrap: wrap;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -402,7 +396,6 @@ body {
 .subscribe-form {
   display: flex;
   align-items: center;
-  gap: 0;
 }
 
 .subscribe-form__input {
@@ -556,6 +549,7 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  flex-wrap: wrap;
   gap: 29px;
 }
 
