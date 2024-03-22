@@ -217,12 +217,9 @@ body {
   background-position: center;
   background-color: #82b3d4;
   background-repeat: no-repeat;
-  padding: 40px;
+  padding: 51px;
   min-height: 485px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+ }
 
 .hero__image {
   display: block;
