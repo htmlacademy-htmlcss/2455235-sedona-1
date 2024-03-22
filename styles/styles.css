@@ -219,12 +219,8 @@ body {
   background-repeat: no-repeat;
   padding: 51px;
   min-height: 485px;
+  text-align: center;
  }
-
-.hero__image {
-  display: block;
-  margin: 0 auto;
-}
 
 .navigation__link {
   display: block;
