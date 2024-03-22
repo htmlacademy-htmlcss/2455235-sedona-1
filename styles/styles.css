@@ -266,10 +266,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgba(131, 179, 211, 0.122);
+  background-color: rgba(131, 179, 211, 0.12);
   text-align: center;
   width: 400px;
   min-height: 385px;
+}
+.advantages__item_wide .advantages__title{
+  color: #ffffff;
+}
+.advantages__item_wide .advantages__description{
+  color: #ffffff;
 }
 
 .advantages__item:not(.advantages__item_wide):nth-child(2n+1) {
@@ -309,18 +315,18 @@ body {
   margin-bottom: 62px;
 }
 
-.advantages__title_light {
+/* .advantages__title_light {
   color: #ffffff;
-}
+} */
 
 .advantages__description {
   margin: 0;
 }
 
-.advantages__description_light {
+/* .advantages__description_light {
   color: #ffffff;
 
-}
+} */
 
 .invitation__wrap-titles {
   margin: 0 auto;
