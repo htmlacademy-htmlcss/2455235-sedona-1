@@ -349,7 +349,7 @@ body {
   text-align: center;
 }
 
-.invitation__item_background-light {
+.invitation__item:nth-child(2n){
   background-color: #ffffff;
 }
 
