@@ -273,6 +273,8 @@ body {
 
 .advantages__cover {
   display: block;
+  max-width: 100%;
+  object-fit: cover;
 }
 
 .advantages__item_wide {
@@ -461,31 +463,20 @@ body {
 }
 
 .card {
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
   width: 340px;
+  gap: 16px 20px;
   border-radius: 4px;
   border: 1px solid #E6E6E6;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
 }
 
 .card__image {
-  width: 100%;
+  max-width: 100%;
   display: block;
-}
-
-.card__info {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.card__info-wrap {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  object-fit: cover;
+ }
 
 .page-footer {
   min-height: 120px;
@@ -691,13 +682,16 @@ body {
 
 .card__link {
   text-decoration: none;
+  grid-column: 1 / -1;
 }
 
 .card__rating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   line-height: 1.25;
   text-transform: uppercase;
-  text-align: center;
   background-color: #f2f2f2;
   margin: 0;
 }
@@ -708,6 +702,7 @@ body {
 
 .card__price {
   margin: 0;
+  justify-self: flex-end;
 }
 
 .pagination {
