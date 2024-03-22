@@ -155,10 +155,8 @@ body {
 }
 
 .button_subscribe {
-  width: 232px;
-  min-height: 52px;
+  padding: 8px 50px;
   border-radius: 0 4px 4px 0;
-  padding: 0;
 }
 
 .button_details {
@@ -219,8 +217,11 @@ body {
   background-position: center;
   background-color: #82b3d4;
   background-repeat: no-repeat;
-  padding-top: 51px;
-  padding-bottom: 82px;
+  padding: 40px;
+  min-height: 485px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero__image {
@@ -404,7 +405,6 @@ body {
 
 .subscribe-form {
   display: flex;
-  align-items: center;
 }
 
 .subscribe-form__input {
@@ -417,11 +417,9 @@ body {
   outline: none;
   display: block;
   width: 452px;
-  min-height: 52px;
   border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
   padding: 14px 20px;
-
 }
 
 .catalog-hotels {
