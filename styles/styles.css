@@ -526,6 +526,9 @@ body {
   text-align: center;
   color: #000000;
 }
+.developer-logo{
+  display: block;
+}
 
 .wrap-header-filters {
   background: #82b3d4 url("../images/mountain_catalog.jpg") no-repeat;
