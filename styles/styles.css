@@ -268,6 +268,9 @@ body {
   width: 400px;
   min-height: 385px;
 }
+.advantages__item:not(.advantages__item_wide):nth-child(2n+1){
+  background-color: rgba(131, 179, 211, 0.2);
+}
 
 .advantages__cover {
   display: block;
@@ -280,10 +283,6 @@ body {
   justify-content: space-between;
   background-color: #82b3d3;
   width: 100%;
-}
-
-.advantages__item_darker-background {
-  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages__wrap-description {
