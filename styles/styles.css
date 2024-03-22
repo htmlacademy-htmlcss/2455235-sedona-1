@@ -134,7 +134,8 @@ body {
   text-align: center;
   background-color: #82b3d3;
   border-radius: 4px;
-  padding: 8px 50px;
+  padding: 8px 16px;
+  min-width: 191px;
   margin: 0;
 }
 
@@ -145,27 +146,28 @@ body {
 
 .button_to-catalog {
   background-color: #756157;
-  padding: 8px 34px;
+  min-width: 160px;
   font-size: 16px;
   line-height: 1.25;
 }
 
 .button_search {
   background-color: #756157;
+  min-width: 376px;
 }
 
 .button_subscribe {
-  padding: 8px 50px;
+  min-width: 232px;
   border-radius: 0 4px 4px 0;
 }
 
 .button_details {
   background-color: #756157;
-  padding: 8px 26px;
+  min-width: 140px;
 }
 
 .button_favourite {
-  padding: 8px 20px;
+  min-width: 140px;
 }
 
 .button_reset {
@@ -174,11 +176,12 @@ body {
 
 .button_in-favourites {
   background-color: #7db54f;
-  padding: 8px 18px;
+  min-width: 140px;
 }
 
 .button_show {
   background-color: #ffffff;
+  border: none;
   color: #000000;
   width: 48px;
   height: 48px;
@@ -220,7 +223,7 @@ body {
   padding: 51px;
   min-height: 485px;
   text-align: center;
- }
+}
 
 .navigation__link {
   display: block;
@@ -268,7 +271,8 @@ body {
   width: 400px;
   min-height: 385px;
 }
-.advantages__item:not(.advantages__item_wide):nth-child(2n+1){
+
+.advantages__item:not(.advantages__item_wide):nth-child(2n+1) {
   background-color: rgba(131, 179, 211, 0.2);
 }
 
@@ -349,7 +353,7 @@ body {
   text-align: center;
 }
 
-.invitation__item:nth-child(2n){
+.invitation__item:nth-child(2n) {
   background-color: #ffffff;
 }
 
@@ -408,7 +412,7 @@ body {
   border: none;
   outline: none;
   display: block;
-  width: 452px;
+  min-width: 452px;
   border-radius: 4px 0 0 4px;
   background-color: #f2f2f2;
   padding: 14px 20px;
