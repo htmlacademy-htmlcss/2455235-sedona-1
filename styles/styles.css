@@ -107,7 +107,7 @@ body {
   flex-shrink: 0;
 }
 
-.navigation__user{
+.navigation__user {
   max-width: 180px;
 }
 
@@ -131,7 +131,7 @@ body {
   line-height: 1.8;
   text-transform: uppercase;
   text-align: center;
-  background: #82b3d3;
+  background-color: #82b3d3;
   border-radius: 4px;
   padding: 8px 50px;
   margin: 0;
@@ -213,8 +213,11 @@ body {
 }
 
 .hero {
-  background: #82b3d4 url("../images/mountains_hero.jpg") no-repeat;
-  background-size: 100% auto;
+  background-image: url("../images/mountains_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #82b3d4;
+  background-repeat: no-repeat;
   padding-top: 51px;
   padding-bottom: 82px;
 }
@@ -285,7 +288,7 @@ body {
 }
 
 .advantages__item_darker-background {
-  background: rgba(131, 179, 211, 0.2);
+  background-color: rgba(131, 179, 211, 0.2);
 }
 
 .advantages__wrap-description {
@@ -377,8 +380,11 @@ body {
 }
 
 .subscribe {
-  background: #82b3d4 url("../images/mountains_subscribe.jpg") no-repeat;
-  background-size: 100% auto;
+  background-image: url("../images/mountains_subscribe.jpg");
+  background-size: cover;
+  background-position: center;
+  background-color: #82b3d4;
+  background-repeat: no-repeat;
 }
 
 .subscribe__wrap {
@@ -476,7 +482,7 @@ body {
   max-width: 100%;
   display: block;
   object-fit: cover;
- }
+}
 
 .page-footer {
   min-height: 120px;
@@ -517,13 +523,17 @@ body {
   text-align: center;
   color: #000000;
 }
-.developer-logo{
+
+.developer-logo {
   display: block;
 }
 
 .wrap-header-filters {
-  background: #82b3d4 url("../images/mountain_catalog.jpg") no-repeat;
-  background-size: 100% auto;
+  background-image: url("../images/mountain_catalog.jpg");
+  background-color: #82b3d4;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   padding: 35px 70px 70px;
   display: flex;
   flex-direction: column;
@@ -555,8 +565,9 @@ body {
   color: #ffffff;
   padding: 8px;
 }
-.breadcrumbs__item:first-child a{
-   padding: 8px 8px 8px 0;
+
+.breadcrumbs__item:first-child a {
+  padding: 8px 8px 8px 0;
 }
 
 .filter-form {
@@ -739,7 +750,7 @@ body {
 }
 
 .subscribe_catalog {
-  background: #ffffff;
+  background-color: #ffffff;
 }
 
 .field_catalog-subsribe {
