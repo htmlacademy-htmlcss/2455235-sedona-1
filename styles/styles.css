@@ -139,6 +139,7 @@ body {
   padding: 8px 16px;
   min-width: 191px;
   margin: 0;
+  cursor: pointer;
 }
 
 .button_small-font {
