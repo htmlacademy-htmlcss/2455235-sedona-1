@@ -378,19 +378,17 @@ body {
 .invitation__item {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  gap: 30px;
+  justify-content: center;
   align-items: center;
   background-color: rgba(131, 179, 211, 0.122);
   width: 400px;
   min-height: 385px;
-  padding: 183px 85px 40px 85px;
-
+  padding: 40px 85px;
 }
 
-
-
-
 .invitation__description {
+  order: 2;
   margin: 0;
   text-align: center;
 }
@@ -400,37 +398,24 @@ body {
 }
 
 .invitation__title {
+  order: 1;
   font-weight: 700;
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
   margin: 0;
-  margin-bottom: 30px;
-  position: relative;
 }
 
-.invitation__item:nth-child(1) .invitation__title::before {
-  position: absolute;
+.invitation__item:nth-child(1)::before {
   content: url('../images/house_icon.svg');
-  top: -30px;
-  transform: translate(-50%, -100%);
-  left: 50%;
 }
 
-.invitation__item:nth-child(2) .invitation__title::before {
-  position: absolute;
+.invitation__item:nth-child(2)::before {
   content: url('../images/food_icon.svg');
-  top: -30px;
-  transform: translate(-50%, -100%);
-  left: 50%;
 }
 
-.invitation__item:nth-child(3) .invitation__title::before {
-  position: absolute;
+.invitation__item:nth-child(3)::before {
   content: url('../images/souvenir_icon.svg');
-  top: -30px;
-  transform: translate(-50%, -100%);
-  left: 50%;
 }
 
 .search__wrap {
