@@ -121,6 +121,10 @@ body {
   padding: 0;
 }
 
+.navigation__user a svg path{
+  transition: fill 0.3s;
+}
+
 .navigation__user a:hover svg path {
   fill: #756157;
 }
@@ -193,15 +197,6 @@ body {
 .button_in-favourites {
   background-color: #7db54f;
   min-width: 140px;
-}
-
-.button_show {
-  background-color: #ffffff;
-  border: none;
-  color: #000000;
-  width: 48px;
-  height: 48px;
-  padding: 0;
 }
 
 .section-title {
@@ -711,7 +706,7 @@ body {
   margin-top: auto;
 }
 
-.show-buttons {
+.card-toggles {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -720,6 +715,52 @@ body {
   padding: 0;
   max-width: 165px;
 }
+
+.card-toggles__button {
+  display: block;
+  background-color: #ffffff;
+  color: #000000;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 2px solid #e5e5e5;
+  transition: border 0.3s;
+}
+.card-toggles__button:hover{
+  border: 2px solid #000000;
+}
+.card-toggles__button:focus{
+  border: 2px solid #68A2CA;
+}
+.card-toggles__button:active{
+  border: 2px solid #000000;
+}
+
+.card-toggles__item:first-child .card-toggles__button {
+  background-image: url('../images/list_table_icon.svg');
+  background-size: 16px 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-toggles__item:last-child .card-toggles__button {
+  background-image: url('../images/list_list_icon.svg');
+  background-size: 16px 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card-toggles__item:nth-child(2) .card-toggles__button {
+  background-image: url('../images/list_by_one_icon.svg');
+  background-size: 16px 14px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card-toggles__button-current{
+  border: 2px solid  #000000;;
+}
+
 
 .catalog-hotels__text {
   font-weight: 700;
