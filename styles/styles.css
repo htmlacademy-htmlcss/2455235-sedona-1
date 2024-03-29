@@ -121,7 +121,7 @@ body {
   padding: 0;
 }
 
-.navigation__user a svg path{
+.navigation__user a svg path {
   transition: fill 0.3s;
 }
 
@@ -342,6 +342,7 @@ body {
   align-items: center;
   width: 400px;
   padding: 70px 85px;
+
 }
 
 
@@ -355,18 +356,9 @@ body {
   margin-bottom: 62px;
 }
 
-/* .advantages__title_light {
-  color: #ffffff;
-} */
-
 .advantages__description {
   margin: 0;
 }
-
-/* .advantages__description_light {
-  color: #ffffff;
-
-} */
 
 .invitation__wrap-titles {
   margin: 0 auto;
@@ -392,7 +384,11 @@ body {
   width: 400px;
   min-height: 385px;
   padding: 183px 85px 40px 85px;
+
 }
+
+
+
 
 .invitation__description {
   margin: 0;
@@ -410,6 +406,31 @@ body {
   text-transform: uppercase;
   margin: 0;
   margin-bottom: 30px;
+  position: relative;
+}
+
+.invitation__item:nth-child(1) .invitation__title::before {
+  position: absolute;
+  content: url('../images/house_icon.svg');
+  top: -30px;
+  transform: translate(-50%, -100%);
+  left: 50%;
+}
+
+.invitation__item:nth-child(2) .invitation__title::before {
+  position: absolute;
+  content: url('../images/food_icon.svg');
+  top: -30px;
+  transform: translate(-50%, -100%);
+  left: 50%;
+}
+
+.invitation__item:nth-child(3) .invitation__title::before {
+  position: absolute;
+  content: url('../images/souvenir_icon.svg');
+  top: -30px;
+  transform: translate(-50%, -100%);
+  left: 50%;
 }
 
 .search__wrap {
@@ -727,13 +748,16 @@ body {
   border: 2px solid #e5e5e5;
   transition: border 0.3s;
 }
-.card-toggles__button:hover{
+
+.card-toggles__button:hover {
   border: 2px solid #000000;
 }
-.card-toggles__button:focus{
+
+.card-toggles__button:focus {
   border: 2px solid #68A2CA;
 }
-.card-toggles__button:active{
+
+.card-toggles__button:active {
   border: 2px solid #000000;
 }
 
@@ -750,6 +774,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .card-toggles__item:nth-child(2) .card-toggles__button {
   background-image: url('../images/list_by_one_icon.svg');
   background-size: 16px 14px;
@@ -757,8 +782,9 @@ body {
   background-repeat: no-repeat;
 }
 
-.card-toggles__button-current{
-  border: 2px solid  #000000;;
+.card-toggles__button-current {
+  border: 2px solid #000000;
+  ;
 }
 
 
