@@ -121,6 +121,19 @@ body {
   padding: 0;
 }
 
+.navigation__user a:hover svg path {
+  fill: #756157;
+}
+
+.navigation__user a:focus svg path {
+  fill: #756157;
+}
+
+.navigation__user a:active svg path {
+  fill:
+    rgba(117, 97, 87, 0.3);
+}
+
 .button {
   display: flex;
   justify-content: center;
@@ -237,6 +250,10 @@ body {
   color: #000000;
   text-align: center;
   padding: 10px 16px;
+}
+
+.navigation__link-current {
+  border:
 }
 
 .navigation__link_favorite {
