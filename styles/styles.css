@@ -239,6 +239,29 @@ body {
   padding: 10px 16px;
 }
 
+.navigation__link_favorite {
+  position: relative;
+
+}
+
+.quantity-favorite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 11px;
+  right: 4px;
+  min-width: 20px;
+  min-height: 20px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #7db54f;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1;
+  color: #ffffff;
+}
+
 .section-lead {
   font-weight: 700;
   font-size: 30px;
