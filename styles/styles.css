@@ -697,9 +697,11 @@ body {
 .footer__link:hover {
   color: #68a2ca;
 }
+
 .footer__link:focus {
   color: #68a2ca;
 }
+
 .footer__link:active {
   color: rgba(104, 162, 202, 0.3);
 }
@@ -719,19 +721,34 @@ body {
   color: #000000;
   transition: color 0.3s;
 }
-.footer__phone:hover{
+
+.footer__phone:hover {
   color: #756157;
 }
-.footer__phone:focus{
+
+.footer__phone:focus {
   color: #756157;
 }
-.footer__phone:active{
+
+.footer__phone:active {
   color: rgba(117, 97, 87, 0.3);
 }
 
+.developer-link svg{
+  color: #000000;
+  transition: color 0.3s;
+}
 
-.developer-logo {
-  display: block;
+.developer-link:hover svg{
+  color: #756157;
+}
+
+.developer-link:focus svg{
+  color: #756157;
+}
+
+.developer-link:active svg{
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .wrap-header-filters {
