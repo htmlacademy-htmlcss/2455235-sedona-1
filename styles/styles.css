@@ -616,6 +616,27 @@ body {
   border-radius: 4px;
   border: 2px solid #E5E5E5;
   padding: 12px 18px;
+  transition: border 0.3s;
+}
+
+.select-control::after {
+  content: url('../images/select_arrow.svg');
+}
+
+.select-control:hover {
+  border: 2px solid #68A2CA;
+}
+
+.select-control:focus {
+  border: 2px solid #68A2CA;
+}
+
+.select-control:active {
+  border: 2px solid #3F5E72;
+}
+
+.select-control:disabled {
+  border: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .hotel-list {
@@ -937,13 +958,7 @@ body {
   padding: 0;
 }
 
-.pagination__separator {
-  font-size: 22px;
-  line-height: 1.18;
-  text-align: center;
-}
-
-.button_pagination {
+.button-pagination {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -954,11 +969,52 @@ body {
   min-width: 60px;
   height: 60px;
   padding: 8px;
+  background-color: #82b3d3;
+  color: #ffffff;
+  border-radius: 4px;
+  margin: 0;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
-.button_pagination-current {
+.pagination__separator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  line-height: 1.18;
+  text-align: center;
+  background-color: #ffffff;
+  color: #000000;
+  min-width: 60px;
+  height: 60px;
+  border: 1px solid transparent;
+}
+
+.button-pagination_current {
   color: #000000;
   background-color: #f2f2f2;
+  cursor: none;
+}
+
+.button-pagination:not(.button-pagination_current):hover {
+  background-color: #68a2ca;
+  border: 1px solid #82B3D3;
+}
+
+.button-pagination:not(.button-pagination_current):focus {
+  background-color: #68a2ca;
+  border: 1px solid #82B3D3;
+}
+
+.button-pagination:not(.button-pagination_current):active {
+  background-color: #82B3D3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.button-pagination:not(.button-pagination_current):disabled {
+  background-color: #E5E5E5;
+  color: #FFFFFF;
 }
 
 .subscribe_catalog {
