@@ -125,16 +125,16 @@ body {
   transition: fill 0.3s;
 }
 
-.navigation__user a:hover svg path {
-  fill: #756157;
+.navigation__user a:hover svg{
+  color: #756157;
 }
 
-.navigation__user a:focus svg path {
-  fill: #756157;
+.navigation__user a:focus svg{
+  color: #756157;
 }
 
-.navigation__user a:active svg path {
-  fill:
+.navigation__user a:active svg {
+  color:
     rgba(117, 97, 87, 0.3);
 }
 
