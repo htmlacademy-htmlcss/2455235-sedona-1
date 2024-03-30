@@ -717,7 +717,18 @@ body {
   line-height: 1.0;
   text-align: center;
   color: #000000;
+  transition: color 0.3s;
 }
+.footer__phone:hover{
+  color: #756157;
+}
+.footer__phone:focus{
+  color: #756157;
+}
+.footer__phone:active{
+  color: rgba(117, 97, 87, 0.3);
+}
+
 
 .developer-logo {
   display: block;
