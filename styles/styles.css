@@ -351,6 +351,15 @@ body {
   padding: 51px;
   min-height: 485px;
   text-align: center;
+  position: relative;
+}
+
+.hero::after {
+  content: url('../images/decor_under_hero_photo.svg');
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 .navigation__link {
@@ -369,14 +378,14 @@ body {
   position: relative;
 }
 
-.navigation__link_current::after{
-content: '';
-position: absolute;
-height: 2px;
-background-color: #756257;
-bottom: -1px;
-left: 16px;
-right: 16px;
+.navigation__link_current::after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  background-color: #756257;
+  bottom: -1px;
+  left: 16px;
+  right: 16px;
 }
 
 .quantity-favorite {
@@ -436,6 +445,7 @@ right: 16px;
 .advantages__item_wide .advantages__title {
   color: #ffffff;
 }
+
 .advantages__item_wide .advantages__wrap-description::after {
   content: '';
   order: 2;
@@ -761,20 +771,20 @@ right: 16px;
   color: rgba(117, 97, 87, 0.3);
 }
 
-.developer-link svg{
+.developer-link svg {
   color: #000000;
   transition: color 0.3s;
 }
 
-.developer-link:hover svg{
+.developer-link:hover svg {
   color: #756157;
 }
 
-.developer-link:focus svg{
+.developer-link:focus svg {
   color: #756157;
 }
 
-.developer-link:active svg{
+.developer-link:active svg {
   color: rgba(117, 97, 87, 0.3);
 }
 
@@ -808,13 +818,13 @@ right: 16px;
   gap: 5px;
 }
 
-.breadcrumbs__item{
+.breadcrumbs__item {
   display: flex;
   align-items: baseline;
   gap: 5px;
 }
 
-.breadcrumbs__item:not(:last-child):after{
+.breadcrumbs__item:not(:last-child):after {
   content: url('../images/breadcrumbs_divider.svg');
 }
 
@@ -829,12 +839,12 @@ right: 16px;
 }
 
 .breadcrumbs__link:not(.breadcrumbs__link_current):hover {
- color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.6);
 
 }
 
 .breadcrumbs__link:not(.breadcrumbs__link_current):focus {
- color: #FFFFFF;
+  color: #FFFFFF;
 }
 
 .breadcrumbs__link:not(.breadcrumbs__link_current):active {
