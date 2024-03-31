@@ -776,8 +776,19 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
-  gap: 29px;
+  gap: 5px;
+}
+
+.breadcrumbs__item{
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+}
+
+.breadcrumbs__item:not(:last-child):after{
+  content: url('../images/breadcrumbs_divider.svg');
 }
 
 .breadcrumbs__link {
@@ -786,11 +797,26 @@ body {
   font-size: 16px;
   line-height: 1.31;
   color: #ffffff;
-  padding: 8px;
+  padding: 8px 5px;
+  transition: color 0.3s;
 }
 
+.breadcrumbs__link:not(.breadcrumbs__link_current):hover {
+ color: rgba(255, 255, 255, 0.6);
+
+}
+
+.breadcrumbs__link:not(.breadcrumbs__link_current):focus {
+ color: #FFFFFF;
+}
+
+.breadcrumbs__link:not(.breadcrumbs__link_current):active {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+
 .breadcrumbs__item:first-child a {
-  padding: 8px 8px 8px 0;
+  padding: 8px 5px 8px 0;
 }
 
 .filter-form {
@@ -1014,6 +1040,7 @@ body {
   border-radius: 4px;
   margin: 0;
   cursor: pointer;
+  border: 1px solid transparent;
   transition: background-color 0.3s, color 0.3s, border 0.3s;
 }
 
@@ -1028,7 +1055,6 @@ body {
   color: #000000;
   min-width: 60px;
   height: 60px;
-  border: 1px solid transparent;
 }
 
 .button-pagination_current {
@@ -1050,11 +1076,6 @@ body {
 .button-pagination:not(.button-pagination_current):active {
   background-color: #82B3D3;
   color: rgba(255, 255, 255, 0.3);
-}
-
-.button-pagination:not(.button-pagination_current):disabled {
-  background-color: #E5E5E5;
-  color: #FFFFFF;
 }
 
 .subscribe_catalog {
