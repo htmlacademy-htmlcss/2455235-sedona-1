@@ -355,18 +355,28 @@ body {
 
 .navigation__link {
   display: block;
+  position: relative;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.2;
   color: #000000;
   text-align: center;
-  padding: 10px 16px;
+  padding: 20px 16px;
 }
 
 .navigation__link_favorite {
   position: relative;
+}
 
+.navigation__link_current::after{
+content: '';
+position: absolute;
+height: 2px;
+background-color: #756257;
+bottom: -1px;
+left: 16px;
+right: 16px;
 }
 
 .quantity-favorite {
