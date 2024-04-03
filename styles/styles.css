@@ -339,6 +339,7 @@ body {
   bottom: -1px;
   left: 16px;
   right: 16px;
+  z-index: 2;
 }
 
 .quantity-favorite {
@@ -399,9 +400,8 @@ body {
   color: #ffffff;
 }
 
-.advantages__item_wide .advantages__wrap-description::after {
+.advantages__item_wide .advantages__description::before {
   content: '';
-  order: 2;
   display: block;
   width: 60px;
   height: 2px;
@@ -412,9 +412,8 @@ body {
   color: #ffffff;
 }
 
-.advantages__item:not(.advantages__item_wide) .advantages__wrap-description::after {
+.advantages__item:not(.advantages__item_wide) .advantages__description::before {
   content: '';
-  order: 2;
   display: block;
   width: 60px;
   height: 2px;
@@ -459,8 +458,12 @@ body {
 }
 
 .advantages__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
   margin: 0;
-  order: 3;
 }
 
 .invitation__wrap-titles {
