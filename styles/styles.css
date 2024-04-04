@@ -761,14 +761,18 @@ body {
   gap: 5px;
 }
 
-.breadcrumbs__item {
+.breadcrumbs__item{
   display: flex;
-  align-items: baseline;
   gap: 5px;
+  align-items: center;
 }
 
 .breadcrumbs__item:not(:last-child):after {
-  content: url('../images/breadcrumbs_divider.svg');
+  content: '';
+  width: 8px;
+  height: 11px;
+  background-image: url('../images/breadcrumbs_divider.svg');
+  background-repeat: no-repeat;
 }
 
 .breadcrumbs__link {
