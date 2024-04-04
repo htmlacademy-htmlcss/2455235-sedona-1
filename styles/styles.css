@@ -513,15 +513,33 @@ body {
 }
 
 .invitation__item:nth-child(1)::before {
-  content: url('../images/house_icon.svg');
+  content: '';
+  width: 75px;
+  height: 72px;
+  background-image: url('../images/house_icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .invitation__item:nth-child(2)::before {
-  content: url('../images/food_icon.svg');
+  content: '';
+  width: 75px;
+  height: 72px;
+  background-image: url('../images/food_icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .invitation__item:nth-child(3)::before {
-  content: url('../images/souvenir_icon.svg');
+  content: '';
+  width: 75px;
+  height: 72px;
+  background-image: url('../images/souvenir_icon.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .search__wrap {
@@ -946,7 +964,7 @@ body {
 .card-toggles__item:nth-child(2) .card-toggles__button {
   background-image: url('../images/list_by_one_icon.svg');
   background-size: 16px 14px;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
 }
 
