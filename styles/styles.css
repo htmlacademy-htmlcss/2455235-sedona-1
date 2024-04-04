@@ -510,34 +510,26 @@ body {
   margin: 0;
 }
 
-.invitation__item:nth-child(1)::before {
+.invitation__item::before{
   content: '';
   width: 75px;
   height: 72px;
-  background-image: url('../images/house_icon.svg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
+}
+
+
+.invitation__item:nth-child(1)::before {
+  background-image: url('../images/house_icon.svg');
 }
 
 .invitation__item:nth-child(2)::before {
-  content: '';
-  width: 75px;
-  height: 72px;
   background-image: url('../images/food_icon.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
 }
 
 .invitation__item:nth-child(3)::before {
-  content: '';
-  width: 75px;
-  height: 72px;
   background-image: url('../images/souvenir_icon.svg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center center;
 }
 
 .search__wrap {
