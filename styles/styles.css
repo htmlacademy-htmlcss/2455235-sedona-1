@@ -187,7 +187,7 @@ body {
 
 .button_details {
   background-color: #756157;
-  min-width: 140px;
+  width: 140px;
 }
 
 .brown-link:hover {
@@ -209,7 +209,7 @@ body {
 }
 
 .button_favourite {
-  min-width: 140px;
+  width: 140px;
 }
 
 .button_reset {
@@ -243,7 +243,7 @@ body {
 
 .button_in-favourites {
   background-color: #7db54f;
-  min-width: 140px;
+  width: 140px;
 }
 
 .button_in-favourites:hover {
@@ -395,6 +395,7 @@ body {
   width: 400px;
   min-height: 385px;
 }
+
 .advantages__description::before {
   content: '';
   display: block;
@@ -510,7 +511,7 @@ body {
   margin: 0;
 }
 
-.invitation__item::before{
+.invitation__item::before {
   content: '';
   width: 75px;
   height: 72px;
@@ -619,10 +620,27 @@ body {
   border: 2px solid #e5e5e5;
   padding: 12px 20px;
   padding-right: 40px;
+  position: relative;
   transition: border 0.3s;
+}
+
+.select-wrapper {
+  position: relative;
+
+}
+
+.select-wrapper::after {
+  content: '';
+  display: block;
+  width: 12px;
+  height: 9px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
   background-image: url('../images/select_arrow.svg');
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: center center;
 }
 
 .select-control:hover {
@@ -769,7 +787,7 @@ body {
   gap: 5px;
 }
 
-.breadcrumbs__item{
+.breadcrumbs__item {
   display: flex;
   gap: 5px;
   align-items: center;
@@ -781,6 +799,8 @@ body {
   height: 11px;
   background-image: url('../images/breadcrumbs_divider.svg');
   background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
 }
 
 .breadcrumbs__link {
