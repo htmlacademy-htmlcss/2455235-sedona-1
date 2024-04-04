@@ -395,16 +395,18 @@ body {
   width: 400px;
   min-height: 385px;
 }
+.advantages__description::before {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+}
 
 .advantages__item_wide .advantages__title {
   color: #ffffff;
 }
 
 .advantages__item_wide .advantages__description::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
   background-color: rgba(255, 255, 255, 0.3);
 }
 
@@ -413,10 +415,6 @@ body {
 }
 
 .advantages__item:not(.advantages__item_wide) .advantages__description::before {
-  content: '';
-  display: block;
-  width: 60px;
-  height: 2px;
   background-color: rgba(0, 0, 0, 0.3);
 }
 
