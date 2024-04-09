@@ -124,8 +124,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: inherit;
-  font-style: inherit;
+  font: inherit;
   border: none;
   color: #ffffff;
   text-decoration: none;
@@ -570,10 +569,7 @@ body {
 }
 
 .subscribe-form__input {
-  font-family: inherit;
-  font-size: inherit;
-  font-style: inherit;
-  font-weight: inherit;
+  font: inherit;
   line-height: 1.33;
   border: none;
   outline: none;
@@ -606,11 +602,7 @@ body {
 }
 
 .select-control {
-  font-family: inherit;
-  font-style: inherit;
-  font-weight: inherit;
-  font-size: inherit;
-  line-height: inherit;
+  font: inherit;
   width: 292px;
   min-height: 49px;
   appearance: none;
@@ -894,9 +886,7 @@ body {
 }
 
 .control__input_price {
-  font-family: inherit;
-  font-style: inherit;
-  font-size: inherit;
+  font: inherit;
   font-weight: 700;
   line-height: 1.33;
   width: 143px;
