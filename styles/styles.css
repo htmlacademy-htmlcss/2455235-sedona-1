@@ -484,12 +484,11 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  justify-content: center;
   align-items: center;
   background-color: rgba(131, 179, 211, 0.122);
   width: 400px;
   min-height: 385px;
-  padding: 40px 85px;
+  padding: 81px 85px 40px 85px;
 }
 
 .invitation__description {
