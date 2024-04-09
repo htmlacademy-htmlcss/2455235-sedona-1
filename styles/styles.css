@@ -621,7 +621,7 @@ body {
   padding-right: 40px;
   position: relative;
   transition: border 0.3s;
-}
+ }
 
 .select-wrapper {
   position: relative;
@@ -640,6 +640,7 @@ body {
   background-image: url('../images/select_arrow.svg');
   background-repeat: no-repeat;
   background-position: center center;
+  pointer-events: none;
 }
 
 .select-control:hover {
