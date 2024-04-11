@@ -594,7 +594,8 @@ body {
 .subscribe-form__input:focus {
   outline: 3px solid #83b3d3;
 }
-.subscribe-form__input:focus + .button_subscribe{
+
+.subscribe-form__input:focus+.button_subscribe {
   outline: 3px solid #83b3d3;
 }
 
@@ -919,9 +920,51 @@ body {
   border-radius: 0 4px 4px 0;
 }
 
-.control__input_range {
-  padding: 0;
-  margin: 0;
+.filter-form__range-scale {
+  position: relative;
+  height: 4px;
+  background-color: rgb(255, 255, 255, 0.3);
+}
+
+.filter-form__range-bar {
+  position: absolute;
+  height: 4px;
+  background-color: #ffffff;
+}
+
+.filter-form__range-toggle {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 0.3s, outline 0.3s;
+}
+
+.filter-form__range-toggle:hover {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+}
+
+.filter-form__range-toggle:focus {
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.25);
+  outline: 3px solid #83B3D3;
+}
+
+.filter-form__range-toggle:active {
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
+  outline: 2px solid #83B3D3;
+}
+
+.toggle-min {
+  top: -8px;
+  left: -10px;
+}
+
+.toggle-max {
+  top: -8px;
+  left: 196px;
 }
 
 .filter-form__button-box {

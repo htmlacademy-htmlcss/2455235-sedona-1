@@ -149,8 +149,17 @@
                         name="price-max" value="9000" placeholder="до">
                     </li>
                   </ul>
-                  <input class="control__input control__input_range" type="range" name="range-price" min="0" max="18000"
-                    value="9000">
+                  <div class="filter-form__range">
+                    <div class="filter-form__range-scale">
+                      <div class="filter-form__range-bar" style="left: 10px; width: 206px">
+                        <button class="filter-form__range-toggle toggle-min">
+                          <span class="visually-hidden">Изменить минимальную цену.</span>
+                        </button>
+                        <button class="filter-form__range-toggle toggle-max">
+                          <span class="visually-hidden">Изменить максимальную цену.</span>
+                        </button>
+                      </div>
+                    </div>
                 </fieldset>
                 <div class="filter-form__button-box">
                   <button class="button button_submit button_small-font" type="submit">Применить</button>
