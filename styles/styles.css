@@ -903,6 +903,19 @@ body {
   padding: 0;
 }
 
+.filter-form__item_price{
+  position: relative;
+}
+.filter-form_label-inputs{
+  pointer-events: none;
+  position: absolute;
+  color: #000000;
+  line-height: 1.33;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+}
+
 .control__input_price {
   font: inherit;
   font-weight: 700;
@@ -911,9 +924,29 @@ body {
   min-height: 48px;
   background-color: #f2f2f2;
   border-radius: 4px 0 0 4px;
-  border: none;
   margin: 0;
   padding: 12px 20px;
+  appearance: textfield;
+  border: 2px solid transparent;
+  transition: background-color 0.3s, border 0.3s;
+  cursor: pointer;
+}
+.control__input_price::-webkit-outer-spin-button,
+.control__input_price::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.control__input_price:hover{
+  background-color: #e6e6e6;
+}
+.control__input_price:focus{
+  outline: 3px solid #83b3d3;
+}
+.control__input_price:active{
+  border: 2px solid #000000;
+  outline: transparent;
+  background-color: #f2f2f2;
 }
 
 .control__input_price-right {
