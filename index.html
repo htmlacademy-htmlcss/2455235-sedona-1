@@ -169,7 +169,7 @@
             <p class="section-description section-description_light section-description_subscribe">Только полезная информация и&nbsp;никакого спама, честное бойскаутское!</p>
             </div>
           <form class="subscribe-form" action="https://echo.htmlacademy.ru/" method="post">
-            <input class="field subscribe-form__input" placeholder="Ваш e-mail" type="email" name="subscribe-email"
+            <input class="field form__input" placeholder="Ваш e-mail" type="email" name="subscribe-email"
               id="subscribe-email" required>
             <button class="button button_subscribe" type="submit">Подписаться</button>
           </form>
@@ -229,7 +229,35 @@
         </a>
       </footer>
 
-
+      <div class="modal-container">
+        <div class="modal modal__search">
+          <button class="modal__close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section class="modal__content">
+            <h2 class="modal__title">Поиск гостиницы в Седоне</h2>
+            <form class="search-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group">
+                <label class="form__input-label" for="search-arrival-date">Дата Заезда:</label>
+                <input class="form__input form__input_modal input-large" type="text" id="search-arrival-date" name="search-arrival-date" placeholder="Укажите дату">
+              </p>
+              <p class="field-group">
+                <label class="form__input-label" for="search-departure-date">Дата Выезда:</label>
+                <input class="form__input form__input_modal input-large" type="text" id="search-departure-date" name="search-departure-date" placeholder="Укажите дату">
+              </p>
+              <p class="field-group">
+                <label class="form__input-label" for="search-adults-number">Взрослые:</label>
+                <input class="form__input form__input_modal input-small" type="number" id="search-adults-number" name="search-adults-number" step="1" min="0">
+              </p>
+              <p class="field-group">
+                <label class="form__input-label" for="search-children-number">Дети:</label>
+                <input class="form__input form__input_modal input-small" type="number" id="search-children-number" name="search-children-number" step="1" min="0">
+              </p>
+              <button class="button button_search-form" type="submit">Найти</button>
+            </form>
+          </section>
+        </div>
+      </div>
     </div>
   </body>
 
