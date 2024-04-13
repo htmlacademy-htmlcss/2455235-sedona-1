@@ -446,7 +446,7 @@ body {
   gap: 30px;
   width: 400px;
   padding: 70px 85px;
-}
+  }
 
 .advantages__title {
   font-weight: 700;
@@ -626,26 +626,9 @@ body {
   padding-right: 40px;
   position: relative;
   transition: border 0.3s;
-}
-
-.select-wrapper {
-  position: relative;
-
-}
-
-.select-wrapper::after {
-  content: '';
-  display: block;
-  width: 12px;
-  height: 9px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 20px;
   background-image: url('../images/select_arrow.svg');
   background-repeat: no-repeat;
-  background-position: center center;
-  pointer-events: none;
+  background-position: right 20px center;
 }
 
 .select-control:hover {
@@ -662,6 +645,7 @@ body {
 
 .select-control:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
+  opacity: 0.3;
 }
 
 .hotel-list {
