@@ -446,7 +446,7 @@ body {
   gap: 30px;
   width: 400px;
   padding: 70px 85px;
-  }
+}
 
 .advantages__title {
   font-weight: 700;
@@ -674,6 +674,21 @@ body {
   max-width: 100%;
   display: block;
   object-fit: cover;
+}
+
+.star-rating {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.star {
+  display: block;
+  width: 18px;
+  height: 17px;
+  background-image: url('../images/star.svg');
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .page-footer {
@@ -947,7 +962,7 @@ body {
 
 }
 
-.filter-form_label-inputs span{
+.filter-form_label-inputs span {
   pointer-events: none;
   position: absolute;
   color: #000000;
@@ -986,6 +1001,7 @@ body {
   border: 2px solid #000000;
   background-color: #f2f2f2;
 }
+
 .control__input_price:disabled {
   background-color: #adacac;
 }
@@ -1280,14 +1296,14 @@ body {
   min-height: 48px;
 }
 
-.input-large{
+.input-large {
   width: 440px;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
   background-position: right 22px center;
 }
 
-.input-small{
+.input-small {
   width: 110px;
 }
 
@@ -1296,4 +1312,4 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #000000;
-  }
+}
