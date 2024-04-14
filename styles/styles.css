@@ -1245,6 +1245,7 @@ body {
   width: 100%;
   height: 100%;
   background-color: rgba(242, 242, 242, 0.8);
+  z-index: 5;
 }
 
 .modal {
@@ -1254,7 +1255,6 @@ body {
   background-color: #ffffff;
   box-shadow: 0 25px 50px 0 rgba(0, 0, 0, 0.15);
   border-radius: 30px;
-  z-index: 3;
 }
 
 .modal__close-button {
@@ -1266,11 +1266,18 @@ body {
   height: 52px;
   border-radius: 50%;
   background-color: #f2f2f2;
+  transition: background-color 0.3s, color 0.3s;
   border: none;
-  background-image: url("../images/close_button_modal.svg");
-  background-repeat: no-repeat;
-  background-position: center;
   cursor: pointer;
+}
+
+.modal__close-button:hover {
+  background-color: #e6e6e6;
+}
+
+.modal__close-button:active {
+  background-color: #e6e6e6;
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .modal__content {
@@ -1287,24 +1294,36 @@ body {
   text-transform: uppercase;
 }
 
+.search-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input_modal {
+  min-height: 48px;
+  border: none;
+  padding: 12px 20px;
+}
+
+.form__small-inputs-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
 .search-form .field-group {
   margin: 0;
 }
 
 .form__input_modal {
   border-radius: 4px;
-  min-height: 48px;
 }
 
 .input-large {
+  grid-column: 2/-1;
   width: 440px;
   background-image: url("../images/calendar.svg");
   background-repeat: no-repeat;
   background-position: right 22px center;
-}
-
-.input-small {
-  width: 110px;
 }
 
 .form__input-label {
@@ -1312,4 +1331,169 @@ body {
   font-size: 20px;
   line-height: 1.2;
   color: #000000;
+}
+
+.field-group {
+  display: grid;
+  grid-template-columns: 1fr 110px 110px 110px 110px;
+  grid-auto-rows: minmax(48px, auto);
+  align-items: center;
+}
+
+.form__message {
+  padding: 4px 20px;
+  margin-bottom: auto;
+  font-size: 16px;
+  line-height: 1.31;
+  grid-column: 2/-1;
+}
+
+.message-error {
+  color: rgb(255, 87, 87);
+}
+
+.hide-message {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.field-group:nth-child(3) {
+  margin-bottom: 48px;
+}
+
+.field-group__small {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 46px;
+}
+
+.field-group__small:first-child {
+  grid-column: 1/3;
+}
+
+.field-group__small:last-child {
+  grid-column: 3/-1;
+  margin-left: auto;
+}
+
+.form_buttons-wrap {
+  display: flex;
+}
+
+.input-small {
+  display: block;
+  width: 31px;
+  padding: 4px 4px;
+  border-radius: 0;
+  text-align: center;
+}
+
+.input-small::-webkit-outer-spin-button,
+.input-small::-webkit-inner-spin-button {
+  appearance: none;
+  margin: 0;
+}
+
+.button-modal {
+  color: rgba(117, 97, 87, 0.3);
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: rgb(242, 242, 242);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.button-modal:hover {
+  color: #000000;
+}
+
+.button-modal:active {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.button_search-form {
+  width: 100%;
+  border-radius: 10px;
+  min-height: 60px;
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip__toggle {
+  border: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-image: url('../images/info.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #83b3d3;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tooltip__toggle:hover {
+  background-color: #68a2ca;
+}
+
+.tooltip__toggle:focus {
+  background-color: #68a2ca;
+}
+
+.tooltip__toggle:active {
+  background-color: #82b3d3;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.field-group__small:last-child .form__input-label {
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tooltip__text {
+  position: absolute;
+  top: 41px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 16px;
+  line-height: 1.25;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 16px 20px;
+  border-radius: 10px;
+  width: 256px;
+  box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.3);
+  z-index: 6;
+  display: none;
+}
+
+.tooltip__text:after {
+  content: '';
+  position: absolute;
+  width: 19px;
+  height: 9px;
+  top: -9px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url("../images/triangle_tooltip.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tooltip__toggle:hover+.tooltip__text,
+.tooltip__toggle:focus+.tooltip__text {
+  display: block;
 }
