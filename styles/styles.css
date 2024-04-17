@@ -598,7 +598,10 @@ body {
 }
 
 .form__input:disabled {
-  background-color: #adacac;
+  background-color: #d5d5d5;
+}
+.form__input:disabled::placeholder {
+ color: #ffffff;
 }
 
 .form__input:disabled~.button_subscribe {
@@ -691,7 +694,7 @@ body {
 
 .star-rating {
   width: 100px;
-  height: 17px;
+  height: 18px;
   background-image: url('../images/star.svg');
   background-repeat: space;
   background-size: 18px 17px;
@@ -1025,9 +1028,12 @@ body {
 }
 
 .control__input_price:disabled {
-  background-color: #adacac;
+  background-color: #d5d5d5;
+  color: #ffffff;
 }
-
+.control__input_price:disabled + span {
+   color: #ffffff;
+}
 
 .control__input_price-right {
   border-radius: 0 4px 4px 0;
