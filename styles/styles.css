@@ -690,18 +690,27 @@ body {
 }
 
 .star-rating {
-  display: flex;
-  gap: 6px;
-  align-items: center;
-}
-
-.star {
-  display: block;
-  width: 18px;
+  width: 100px;
   height: 17px;
   background-image: url('../images/star.svg');
-  background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: space;
+  background-size: 18px 17px;
+}
+
+.star-rating_1 {
+  width: 20px;
+}
+
+.star-rating_2 {
+  width: 40px;
+}
+
+.star-rating_3 {
+  width: 60px;
+}
+
+.star-rating_4 {
+  width: 80px;
 }
 
 .page-footer {
@@ -1060,7 +1069,8 @@ body {
   background-color: #adacac;
   cursor: default;
 }
-.range_disabled .filter-form__range-bar, .range_disabled .filter-form__range-toggle{
+
+.range_disabled .filter-form__range-bar, .range_disabled .filter-form__range-toggle {
   background-color: #adacac;
   cursor: default;
 }
