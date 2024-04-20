@@ -305,8 +305,8 @@ body {
 }
 
 .hero::after {
-  content: '';
-  background-image: url('../images/decor_under_hero_photo.svg');
+  content: "";
+  background-image: url("../images/decor_under_hero_photo.svg");
   position: absolute;
   background-repeat: no-repeat;
   background-position: bottom;
@@ -334,7 +334,7 @@ body {
 }
 
 .navigation__link_current::after {
-  content: '';
+  content: "";
   position: absolute;
   height: 2px;
   background-color: #756257;
@@ -399,7 +399,7 @@ body {
 }
 
 .advantages__description::before {
-  content: '';
+  content: "";
   display: block;
   width: 60px;
   height: 2px;
@@ -513,7 +513,7 @@ body {
 }
 
 .invitation__item::before {
-  content: '';
+  content: "";
   width: 75px;
   height: 72px;
   background-repeat: no-repeat;
@@ -523,15 +523,15 @@ body {
 
 
 .invitation__item:nth-child(1)::before {
-  background-image: url('../images/house_icon.svg');
+  background-image: url("../images/house_icon.svg");
 }
 
 .invitation__item:nth-child(2)::before {
-  background-image: url('../images/food_icon.svg');
+  background-image: url("../images/food_icon.svg");
 }
 
 .invitation__item:nth-child(3)::before {
-  background-image: url('../images/souvenir_icon.svg');
+  background-image: url("../images/souvenir_icon.svg");
 }
 
 .search__wrap {
@@ -642,7 +642,7 @@ body {
   padding-right: 40px;
   position: relative;
   transition: border 0.3s;
-  background-image: url('../images/select_arrow.svg');
+  background-image: url("../images/select_arrow.svg");
   background-repeat: no-repeat;
   background-position: right 20px center;
 }
@@ -695,7 +695,7 @@ body {
 .star-rating {
   width: 100px;
   height: 18px;
-  background-image: url('../images/star.svg');
+  background-image: url("../images/star.svg");
   background-repeat: space;
   background-size: 18px 17px;
 }
@@ -824,10 +824,10 @@ body {
 }
 
 .breadcrumbs__item:not(:last-child):after {
-  content: '';
+  content: "";
   width: 8px;
   height: 11px;
-  background-image: url('../images/breadcrumbs_divider.svg');
+  background-image: url("../images/breadcrumbs_divider.svg");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center center;
@@ -919,7 +919,7 @@ body {
   left: 0;
   width: 20px;
   height: 20px;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .control__input[type=checkbox]+.control__mark {
@@ -954,7 +954,7 @@ body {
   width: 13px;
   height: 11px;
   position: absolute;
-  background-image: url('../images/checbox_mark.svg');
+  background-image: url("../images/checbox_mark.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1072,7 +1072,7 @@ body {
 
 .filter-form__range-toggle:active {
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.4);
-  outline: 2px solid #83B3D3;
+  outline: 2px solid #83b3d3;
 }
 
 .range_disabled {
@@ -1080,7 +1080,8 @@ body {
   cursor: default;
 }
 
-.range_disabled .filter-form__range-bar, .range_disabled .filter-form__range-toggle {
+.range_disabled .filter-form__range-bar,
+.range_disabled .filter-form__range-toggle {
   background-color: #adacac;
   cursor: default;
 }
@@ -1137,21 +1138,21 @@ body {
 }
 
 .card-toggles__item:first-child .card-toggles__button {
-  background-image: url('../images/list_table_icon.svg');
+  background-image: url("../images/list_table_icon.svg");
   background-size: 16px 14px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-toggles__item:last-child .card-toggles__button {
-  background-image: url('../images/list_list_icon.svg');
+  background-image: url("../images/list_list_icon.svg");
   background-size: 16px 14px;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .card-toggles__item:nth-child(2) .card-toggles__button {
-  background-image: url('../images/list_by_one_icon.svg');
+  background-image: url("../images/list_by_one_icon.svg");
   background-size: 16px 14px;
   background-position: center center;
   background-repeat: no-repeat;
@@ -1488,7 +1489,7 @@ body {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background-image: url('../images/info.svg');
+  background-image: url("../images/info.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: #83b3d3;
@@ -1536,7 +1537,7 @@ body {
 }
 
 .tooltip__text:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 19px;
   height: 9px;
