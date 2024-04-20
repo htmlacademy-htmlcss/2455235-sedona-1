@@ -159,6 +159,7 @@ body {
   background-color: #e5e5e5;
   color: #ffffff;
   cursor: default;
+  pointer-events: none;
 }
 
 .button_small-font {
@@ -208,6 +209,7 @@ body {
 .brown-link:disabled {
   background-color: #e5e5e5;
   color: #ffffff;
+  pointer-events: none;
 }
 
 .button_favourite {
@@ -594,11 +596,12 @@ body {
 }
 
 .form__input:hover {
-  background-color: #e6e6e6;
+  background-color: #e1e1e1;
 }
 
 .form__input:disabled {
-  background-color: #e6e6e6;
+  background-color: #ebebeb;
+  pointer-events: none;
 }
 .form__input:disabled::placeholder {
  color: #ffffff;
@@ -662,6 +665,7 @@ body {
 .select-control:disabled {
   border: 2px solid rgba(0, 0, 0, 0.3);
   opacity: 0.3;
+  pointer-events: none;
 }
 
 .hotel-list {
@@ -1034,6 +1038,7 @@ body {
 .control__input_price:disabled {
   background-color: #d5d5d5;
   color: #ffffff;
+  pointer-events: none;
 }
 .control__input_price:disabled + span {
    color: #ffffff;
@@ -1046,7 +1051,7 @@ body {
 .filter-form__range-scale {
   position: relative;
   height: 4px;
-  background-color: rgb(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .filter-form__range-bar {
@@ -1084,6 +1089,7 @@ body {
 .range_disabled .filter-form__range-toggle {
   background-color: #adacac;
   cursor: default;
+  pointer-events: none;
 }
 
 .toggle-min {
