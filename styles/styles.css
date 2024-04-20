@@ -1394,7 +1394,7 @@ body {
 }
 
 .message-error {
-  color: rgb(255, 87, 87);
+  color: #ff5757;
 }
 
 .hide-message {
@@ -1447,7 +1447,7 @@ body {
   align-items: center;
   justify-content: center;
   border: none;
-  background-color: rgb(242, 242, 242);
+  background-color: #f2f2f2;
   cursor: pointer;
   transition: color 0.3s;
 }
