@@ -598,7 +598,7 @@ body {
 }
 
 .form__input:disabled {
-  background-color: #d5d5d5;
+  background-color: #e6e6e6;
 }
 .form__input:disabled::placeholder {
  color: #ffffff;
@@ -1461,9 +1461,9 @@ body {
 }
 
 .button-modal:disabled {
-  background-color: #adacac;
-  color: #adacac;
+  background-color: #e6e6e6;
   cursor: default;
+  pointer-events: none;
 }
 
 .button_search-form {
