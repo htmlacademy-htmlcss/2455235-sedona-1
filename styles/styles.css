@@ -1007,9 +1007,13 @@ body {
   border-radius: 4px 0 0 4px;
   margin: 0;
   padding: 12px 20px;
+  padding-right: 40px;
   appearance: textfield;
   border: 2px solid transparent;
   transition: background-color 0.3s, border 0.3s;
+}
+.control__input_price + span{
+  color:rgba(0, 0, 0, 0.3);
 }
 
 .control__input_price::-webkit-outer-spin-button,
