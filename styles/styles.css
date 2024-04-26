@@ -295,6 +295,7 @@ body {
 }
 
 .hero {
+  position: relative;
   background-image: url("../images/mountains_hero.jpg");
   background-size: cover;
   background-position: center;
@@ -303,13 +304,12 @@ body {
   padding: 51px;
   min-height: 485px;
   text-align: center;
-  position: relative;
 }
 
 .hero::after {
   content: "";
-  background-image: url("../images/decor_under_hero_photo.svg");
   position: absolute;
+  background-image: url("../images/decor_under_hero_photo.svg");
   background-repeat: no-repeat;
   background-position: bottom;
   height: 57px;
@@ -320,8 +320,8 @@ body {
 }
 
 .navigation__link {
-  display: block;
   position: relative;
+  display: block;
   text-decoration: none;
   font-weight: 700;
   font-size: 20px;
@@ -347,10 +347,10 @@ body {
 }
 
 .quantity-favorite {
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
   top: 11px;
   right: 4px;
   min-width: 20px;
@@ -603,14 +603,9 @@ body {
   background-color: #ebebeb;
   pointer-events: none;
 }
-.form__input:disabled::placeholder {
- color: #ffffff;
-}
 
-.form__input:disabled~.button_subscribe {
-  background-color: #e5e5e5;
+.form__input:disabled::placeholder {
   color: #ffffff;
-  cursor: default;
 }
 
 .catalog-hotels {
@@ -634,6 +629,7 @@ body {
 }
 
 .select-control {
+  position: relative;
   font: inherit;
   width: 292px;
   min-height: 49px;
@@ -641,9 +637,9 @@ body {
   border-radius: 4px;
   outline: none;
   border: 2px solid #e5e5e5;
+  background-color: #ffffff;
   padding: 12px 20px;
   padding-right: 40px;
-  position: relative;
   transition: border 0.3s;
   background-image: url("../images/select_arrow.svg");
   background-repeat: no-repeat;
@@ -936,6 +932,7 @@ body {
 
 .control__input[type=radio]:checked+.control__mark::before {
   content: "";
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 5px;
@@ -943,32 +940,34 @@ body {
   height: 10px;
   border-radius: 50%;
   background-color: #3f5e72;
-  position: absolute;
 }
 
-.control__input:hover~.control__label, .control__input:hover+.control__mark {
+.control__input:hover~.control__label,
+.control__input:hover+.control__mark {
   opacity: 0.6;
 }
 
 .control__input[type=checkbox]:checked+.control__mark::before {
   content: "";
+  position: absolute;
   top: 50%;
   transform: translateY(-50%);
   left: 4px;
   width: 13px;
   height: 11px;
-  position: absolute;
   background-image: url("../images/checbox_mark.svg");
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.control__input[type=checkbox]:disabled+.control__mark, .control__input[type=radio]:disabled+.control__mark {
+.control__input[type=checkbox]:disabled+.control__mark,
+.control__input[type=radio]:disabled+.control__mark {
   opacity: 0.3;
   pointer-events: none;
 }
 
-.control__input[type=checkbox]:disabled~.control__label, .control__input[type=radio]:disabled~.control__label {
+.control__input[type=checkbox]:disabled~.control__label,
+.control__input[type=radio]:disabled~.control__label {
   opacity: 0.3;
   pointer-events: none;
 }
@@ -988,12 +987,11 @@ body {
 
 .filter-form__item_price {
   position: relative;
-
 }
 
 .filter-form_label-inputs span {
-  pointer-events: none;
   position: absolute;
+  pointer-events: none;
   color: #000000;
   line-height: 1.33;
   top: 50%;
@@ -1016,8 +1014,9 @@ body {
   border: 2px solid transparent;
   transition: background-color 0.3s, border 0.3s;
 }
-.control__input_price + span{
-  color:rgba(0, 0, 0, 0.3);
+
+.control__input_price+span {
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .control__input_price::-webkit-outer-spin-button,
@@ -1040,8 +1039,9 @@ body {
   color: #ffffff;
   pointer-events: none;
 }
-.control__input_price:disabled + span {
-   color: #ffffff;
+
+.control__input_price:disabled+span {
+  color: #ffffff;
 }
 
 .control__input_price-right {
