@@ -777,13 +777,13 @@ body {
   text-decoration: none;
 }
 
-.developer-link{
- display: flex;
- justify-content: center;
- align-items: center;
+.developer-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.developer-link__img{
+.developer-link__img {
   display: block;
 }
 
