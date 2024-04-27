@@ -217,6 +217,7 @@ body {
 }
 
 .button_reset {
+  padding: 5px 16px;
   border: 3px solid transparent;
   background-color: transparent;
 }
@@ -577,7 +578,7 @@ body {
   display: block;
   width: 452px;
   min-height: 52px;
-  padding: 12px 20px;
+  padding: 12px 18px;
   font: inherit;
   line-height: 1.33;
   font-weight: 700;
@@ -593,6 +594,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   line-height: 1.33;
+  opacity: 0.6;
 }
 
 .form__input:hover {
@@ -632,7 +634,7 @@ body {
   position: relative;
   width: 292px;
   min-height: 49px;
-  padding: 12px 20px;
+  padding: 12px 18px;
   padding-right: 40px;
   font: inherit;
   appearance: none;
@@ -642,7 +644,7 @@ body {
   background-color: #ffffff;
   background-image: url("../images/select_arrow.svg");
   background-repeat: no-repeat;
-  background-position: right 20px center;
+  background-position: right 18px center;
   transition: border 0.3s;
 }
 
@@ -681,7 +683,7 @@ body {
   width: 340px;
   height: 100%;
   gap: 16px 20px;
-  padding: 20px;
+  padding: 19px;
   border-radius: 4px;
   border: 1px solid #e6e6e6;
 }
@@ -695,9 +697,11 @@ body {
 .star-rating {
   width: 100px;
   height: 18px;
+  margin: 0;
   background-image: url("../images/star.svg");
   background-repeat: space;
   background-size: 18px 17px;
+  align-self: center;
 }
 
 .star-rating_1 {
@@ -895,13 +899,15 @@ body {
   flex-direction: column;
   gap: 32px;
   width: 150px;
+  min-height: 160px;
   margin: 0;
   padding: 0;
   border: none;
-}
+  }
 
 .filter-form__group_inputs-box {
   width: 288px;
+  gap: 44px;
 }
 
 .filter-form__title {
@@ -1013,7 +1019,7 @@ body {
   width: 143px;
   min-height: 48px;
   margin: 0;
-  padding: 12px 20px;
+  padding: 10px 18px;
   padding-right: 40px;
   font: inherit;
   font-weight: 700;
@@ -1192,7 +1198,7 @@ body {
   margin: 0;
   font-weight: 700;
   font-size: 24px;
-  line-height: 1.17;
+  line-height: 1.16;
   color: #000000;
 }
 
@@ -1205,7 +1211,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: 140px;
+  width: 140px;
+  min-height: 37px;
   margin: 0;
   font-size: 16px;
   line-height: 1.25;
