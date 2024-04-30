@@ -637,6 +637,7 @@ body {
 
 .select-control {
   position: relative;
+  align-self: flex-start;
   width: 292px;
   min-height: 49px;
   padding: 12px 18px;
@@ -886,9 +887,9 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- }
+}
 
-.filter-form:not(:last-child){
+.filter-form:not(:last-child) {
   margin-bottom: 30px;
 }
 
@@ -899,7 +900,8 @@ body {
   flex-wrap: wrap;
   max-width: 380px;
 }
-.filter-form__left-box:not(:first-child){
+
+.filter-form__left-box:not(:first-child) {
   margin-bottom: 20px;
 }
 
@@ -921,7 +923,7 @@ body {
   margin: 0;
   padding: 0;
   border: none;
-  }
+}
 
 .filter-form__group_inputs-box {
   width: 288px;
@@ -1011,7 +1013,8 @@ body {
   gap: 70px;
   flex-wrap: wrap;
 }
-.filter-form__right-box:not(:first-child){
+
+.filter-form__right-box:not(:first-child) {
   margin-bottom: 20px;
 }
 
