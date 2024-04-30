@@ -26,6 +26,7 @@ html {
 
 body {
   height: 100%;
+  min-width: 1280px;
   margin: 0 auto;
   font-family: "PT Sans", Arial, sans-serif;
   font-style: normal;
@@ -513,6 +514,7 @@ body {
   font-size: 24px;
   color: #000000;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .invitation__item::before {
@@ -724,6 +726,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
   min-height: 120px;
   padding: 40px 70px 30px;
 }
@@ -769,6 +772,7 @@ body {
 }
 
 .footer__phone {
+  max-width: 600px;
   font-size: 40px;
   line-height: 1.0;
   text-align: center;
@@ -878,11 +882,18 @@ body {
 .filter-form {
   display: flex;
   justify-content: space-between;
+ }
+
+.filter-form:not(:last-child){
+  margin-bottom: 30px;
 }
+
 
 .filter-form__left-box {
   display: flex;
   gap: 70px;
+  flex-wrap: wrap;
+  max-width: 380px;
 }
 
 .filter-form__list {
@@ -991,6 +1002,7 @@ body {
 .filter-form__right-box {
   display: flex;
   gap: 70px;
+  flex-wrap: wrap;
 }
 
 .filter-form__inputs-list {
@@ -1186,6 +1198,7 @@ body {
 
 
 .catalog-hotels__text {
+  max-width: 500px;
   margin: 0;
   font-weight: 700;
   font-size: 30px;
