@@ -622,12 +622,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
   min-height: 49px;
   margin-bottom: 40px;
 }
 
 .catalog-hotels__sort-box {
   display: flex;
+  flex-wrap: wrap;
   gap: 70px;
   margin-left: auto;
 }
@@ -882,6 +885,7 @@ body {
 .filter-form {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
  }
 
 .filter-form:not(:last-child){
@@ -894,6 +898,9 @@ body {
   gap: 70px;
   flex-wrap: wrap;
   max-width: 380px;
+}
+.filter-form__left-box:not(:first-child){
+  margin-bottom: 20px;
 }
 
 .filter-form__list {
@@ -1003,6 +1010,9 @@ body {
   display: flex;
   gap: 70px;
   flex-wrap: wrap;
+}
+.filter-form__right-box:not(:first-child){
+  margin-bottom: 20px;
 }
 
 .filter-form__inputs-list {
