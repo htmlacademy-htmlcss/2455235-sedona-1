@@ -726,6 +726,10 @@ body {
   width: 80px;
 }
 
+.star-rating_5 {
+  width: 106px;
+}
+
 .page-footer {
   display: flex;
   align-items: center;
