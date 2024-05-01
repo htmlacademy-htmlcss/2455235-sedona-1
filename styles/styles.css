@@ -37,6 +37,11 @@ body {
   background-color: #f2f2f2;
 }
 
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -1199,11 +1204,20 @@ body {
   font-size: 24px;
   line-height: 1.16;
   color: #000000;
+  transition: color 0.3s;
 }
 
 .card__link {
   grid-column: 1 / -1;
   text-decoration: none;
+}
+
+.card__link:hover .card__title {
+  color: #756157;
+}
+
+.card__link:active .card__title {
+  color: rgba(117, 97, 87, 0.3);
 }
 
 .card__rating {
