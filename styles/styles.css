@@ -366,7 +366,7 @@ img {
 }
 
 .advantages__wrap-titles {
-  width: 651px;
+  width: 660px;
   margin: 0 auto;
   padding-top: 69px;
   padding-bottom: 90px;
@@ -438,7 +438,7 @@ img {
   align-items: center;
   gap: 30px;
   width: 400px;
-  padding: 70px 85px;
+  padding: 70px 80px;
 }
 
 .advantages__title {
@@ -996,7 +996,7 @@ img {
   flex-wrap: wrap;
 }
 
-.filter-form__right-box:not(:first-child) {
+.filter-form__right-box + .filter-form__right-box {
   margin-bottom: 20px;
 }
 
