@@ -241,10 +241,6 @@ img {
   width: 232px;
   min-height: 52px;
   border-radius: 0 4px 4px 0;
-  outline: 3px solid transparent;
-  -webkit-transition: outline 0.3s;
-  -o-transition: outline 0.3s;
-  transition: outline 0.3s;
 }
 
 .button_details {
@@ -349,7 +345,7 @@ img {
   background-image: url("../images/mountains_hero.jpg");
   background-size: cover;
   background-position: center;
-  background-color: #82b3d4;
+  background-color: #7f5b47;
   background-repeat: no-repeat;
 }
 
@@ -658,7 +654,7 @@ img {
   background-image: url("../images/mountains_subscribe.jpg");
   background-size: cover;
   background-position: center;
-  background-color: #82b3d4;
+  background-color: #9e7d6e;
   background-repeat: no-repeat;
 }
 
@@ -839,7 +835,6 @@ img {
   -moz-appearance: none;
   appearance: none;
   border-radius: 4px;
-  outline: none;
   border: 2px solid #e5e5e5;
   background-color: #ffffff;
   background-image: url("../images/select_arrow.svg");
@@ -1999,7 +1994,7 @@ img {
   transform: translateX(-50%);
   display: none;
   width: 256px;
-  padding: 16px 20px;
+  padding: 20px 18px 23px 21px;
   font-size: 16px;
   line-height: 1.25;
   font-weight: 400;
