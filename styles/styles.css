@@ -1999,7 +1999,8 @@ img {
   transform: translateX(-50%);
   display: none;
   width: 256px;
-  padding: 16px 20px;
+  min-height: 143px;
+  padding: 20px 18px 18px 21px;
   font-size: 16px;
   line-height: 1.25;
   font-weight: 400;
