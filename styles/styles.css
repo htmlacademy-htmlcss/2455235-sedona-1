@@ -241,10 +241,6 @@ img {
   width: 232px;
   min-height: 52px;
   border-radius: 0 4px 4px 0;
-  outline: 3px solid transparent;
-  -webkit-transition: outline 0.3s;
-  -o-transition: outline 0.3s;
-  transition: outline 0.3s;
 }
 
 .button_details {
@@ -839,7 +835,6 @@ img {
   -moz-appearance: none;
   appearance: none;
   border-radius: 4px;
-  outline: none;
   border: 2px solid #e5e5e5;
   background-color: #ffffff;
   background-image: url("../images/select_arrow.svg");
